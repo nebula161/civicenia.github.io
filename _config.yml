@@ -2,9 +2,9 @@ title: Government of Icenia
 email: icenia@protonmail.com
 description: They work for you.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://iceniagov.protonull.uk/"
-github_username:  Protonull
-github_repo: IceniaGov
+url: "https://civicenia.github.io/"
+github_username:  CivIcenia
+github_repo: civicenia.github.io
 
 excerpt_separator: "<!--more-->"
 
