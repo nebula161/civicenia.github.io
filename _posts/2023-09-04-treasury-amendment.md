@@ -2,7 +2,7 @@
 changetolaw: true
 layout: lawchange
 institution: senate
-headline: Passing the Eleventh Amendment to the Constitution
+headline: Passing the 11th Amendment to the Constitution
 date: 2023-09-04 04:11:00 +01:00
 document:
   type: markdown

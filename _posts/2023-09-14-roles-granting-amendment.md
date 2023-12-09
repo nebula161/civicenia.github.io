@@ -2,7 +2,7 @@
 changetolaw: true
 layout: lawchange
 institution: senate
-headline: Passing the Thirteenth Amendment to the Constitution
+headline: Passing the 13th Amendment to the Constitution
 date: 2023-09-14 04:46:00 +01:00
 document:
   type: markdown

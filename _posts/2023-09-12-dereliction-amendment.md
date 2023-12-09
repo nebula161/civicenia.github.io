@@ -2,7 +2,7 @@
 changetolaw: true
 layout: lawchange
 institution: senate
-headline: Passing the Twelfth Amendment to the Constitution
+headline: Passing the 12th Amendment to the Constitution
 date: 2023-09-12 02:31:00 +01:00
 document:
   type: markdown
