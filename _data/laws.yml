@@ -146,3 +146,9 @@ entries:
     fullname: Icenia Build Back Better Act
     kind: statute
     googledoc: https://docs.google.com/document/d/11Rw9yE_4JgwBX9IqQc0m6apT48V9fDTRvpmhvrVFsXI/edit
+  - hidden: false
+    googledoc: https://docs.google.com/document/d/1cmgBDspJKr6qviGhDwMc0l55D4NWOEUDTd_r4mSrQY8/edit
+    fullname: Icenia Bounty Hunting Act
+    name: Bounty Hunting Act
+    slug: bounty-hunting-act
+    kind: statute
