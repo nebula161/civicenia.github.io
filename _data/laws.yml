@@ -152,3 +152,9 @@ entries:
     name: Bounty Hunting Act
     slug: bounty-hunting-act
     kind: statute
+  - hidden: false
+    slug: contracts-act
+    name: Contract Law Act
+    fullname: Icenian Contract Law Act
+    kind: statute
+    googledoc: https://docs.google.com/document/d/1_jApjWx_Y-3TVnDFiIjJGwjIJ01rSwmOT-G-Peu2zzU/edit
