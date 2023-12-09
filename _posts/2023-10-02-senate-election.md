@@ -20,7 +20,7 @@ parties:
       - "Seared"
       - "Drekamor"
   - name: "Newfriend Party"
-    bgcolour: "#A3A3A3"
+    bgcolour: "#FAF9F6"
     txtcolour: "#3D3D3D"
     members:
       - "sadchamp"

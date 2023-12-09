@@ -6,8 +6,8 @@ term: 14
 date: "2023-08-02 16:03:00 +01:00"
 parties:
   - name: "Icenians Against Drunk Driving"
-    bgcolour: "#A3A3A3"
-    txtcolour: "#3D3D3D"
+    bgcolour: "#ab3d26"
+    txtcolour: "#F2F2F2"
     members:
       - "slowlyfunny2"
   - name: "Make Icenia Secure and Prosperous (MISAP)"

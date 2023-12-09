@@ -24,13 +24,13 @@ parties:
     members:
       - "SpeedyJustice"
   - name: "Petrichor Revitalisation Party"
-    bgcolour: "#A3A3A3"
-    txtcolour: "#3D3D3D"
+    bgcolour: "#D22B2B"
+    txtcolour: "#F2F2F2"
     members:
       - "sadchamp"
   - name: "Slay Another Day"
-    bgcolour: "#A3A3A3"
-    txtcolour: "#3D3D3D"
+    bgcolour: "#F604CB"
+    txtcolour: "#F2F2F2"
     members:
       - "Xcios"
   - name: "Independents"
