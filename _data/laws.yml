@@ -158,3 +158,8 @@ entries:
     fullname: Icenian Contract Law Act
     kind: statute
     googledoc: https://docs.google.com/document/d/1_jApjWx_Y-3TVnDFiIjJGwjIJ01rSwmOT-G-Peu2zzU/edit
+  - hidden: false
+    slug: articles-of-war
+    name: Articles of War
+    kind: statute
+    googledoc: https://docs.google.com/document/d/1RGuLnK7WoLMu3O1pGEDLDjNpxORzIaetvWRJ9FqU7DY/edit
