@@ -140,3 +140,9 @@ entries:
     name: State of Icarus
     kind: statehood
     googledoc: https://docs.google.com/document/d/10VMMREwPoON5OqTHE8ku1DIjXNMy7PNP7N-qfMeERj0/edit
+  - hidden: false
+    slug: build-back-better-act
+    name: Build Back Better Act
+    fullname: Icenia Build Back Better Act
+    kind: statute
+    googledoc: https://docs.google.com/document/d/11Rw9yE_4JgwBX9IqQc0m6apT48V9fDTRvpmhvrVFsXI/edit
