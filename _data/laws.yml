@@ -135,3 +135,8 @@ entries:
     fullname: Statehood for Tortugán
     kind: statehood
     googledoc: https://docs.google.com/document/d/1NMz3GrM462YuyQp2JsTco_EakL-rbJ0W7sWc3dEV9oE/edit
+  - hidden: false
+    slug: statehood-for-icarus
+    name: State of Icarus
+    kind: statehood
+    googledoc: https://docs.google.com/document/d/10VMMREwPoON5OqTHE8ku1DIjXNMy7PNP7N-qfMeERj0/edit
