@@ -16,7 +16,7 @@ parties:
     members:
       - Forged_TK
   - name: Make Icenia Secure and Prosperous (MISAP)
-    bgcolour: "#A3A3A3"
+    bgcolour: "#FEBA3A"
     txtcolour: "#3D3D3D"
     members:
       - Kingstell
