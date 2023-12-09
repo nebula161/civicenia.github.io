@@ -96,12 +96,13 @@ entries:
     name: Temporal Vault Treaty
     kind: treaty
     googledoc: https://docs.google.com/document/d/1Q6S_pqBjJ2SSOKPLl76jMv-2E5qntW8bCuIZck6iaps/edit
-  - hidden: false
+  - hidden: true
     kind: treaty
     name: Butternut Portal Treaty
     slug: butternut-portal-treaty
     googledoc: https://docs.google.com/document/d/19D4YcCd3btGQP47uOTOY_5LjCpXEdAq8yn1kreFzVEA/edit
-    fullname: Agreement Regarding Use of Western Portal in Icenian Claims Between Butternut and Icenia
+    fullname: Agreement Regarding Use of Western Portal in Icenian Claims Between
+      Butternut and Icenia
   - hidden: true
     googledoc: https://drive.google.com/file/d/1pYLcZynDMC8NMVddMCUn5tu-tZmusTF4/view
     kind: treaty
