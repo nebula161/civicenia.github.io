@@ -163,3 +163,8 @@ entries:
     name: Articles of War
     kind: statute
     googledoc: https://docs.google.com/document/d/1RGuLnK7WoLMu3O1pGEDLDjNpxORzIaetvWRJ9FqU7DY/edit
+  - hidden: false
+    slug: citizenship-suspension-act
+    name: Citizenship Suspension Act
+    kind: statute
+    googledoc: https://docs.google.com/document/d/1Y0GSbzbgpfuh8zURksDmmENjLkI9VIagUHVxwxh48mg/edit
