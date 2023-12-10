@@ -70,7 +70,7 @@ entries:
     fullname: Statehood for Petrichor
     googledoc: https://docs.google.com/document/d/15W1U7h2jFdmRa70KY71374luVs24sFQ5gawD9rWSlbU/edit
     kind: statehood
-  - hidden: false
+  - hidden: true
     slug: sec-treaty
     name: Security Enhancement Coalition
     googledoc: https://docs.google.com/document/d/1D_RM3q6MjGyVgcV4ce_dopPXs9PLsBhUunGwbAUSqNU/edit
@@ -136,6 +136,11 @@ entries:
     fullname: Statehood for Tortugán
     kind: statehood
     googledoc: https://docs.google.com/document/d/1NMz3GrM462YuyQp2JsTco_EakL-rbJ0W7sWc3dEV9oE/edit
+  - hidden: false
+    slug: dawn-guard-pact
+    name: Dawn Guard Pact
+    kind: treaty
+    googledoc: https://docs.google.com/document/d/1nMistP4sl2zNftwuaodal9axRSaRk8N74lFcxPG2F6o/edit
   - hidden: false
     slug: statehood-for-icarus
     name: State of Icarus
