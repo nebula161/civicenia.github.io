@@ -2,7 +2,7 @@
 changetolaw: true
 layout: lawchange
 institution: senate
-headline: Passing the Formatting of Dates Act
+headline: Passing the Formatting of Dates Bill
 date: 2022-08-11 18:00:00 +01:00
 document:
   type: local-file

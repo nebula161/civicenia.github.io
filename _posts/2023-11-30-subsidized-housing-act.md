@@ -2,7 +2,7 @@
 changetolaw: true
 layout: lawchange
 institution: senate
-headline: Passing the Subsidized Housing Act
+headline: Passing the Subsidized Housing Bill
 date: 2023-11-30 23:59:00 +00:00
 document:
   type: local-file

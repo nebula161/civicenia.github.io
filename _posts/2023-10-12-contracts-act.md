@@ -2,7 +2,7 @@
 changetolaw: true
 layout: lawchange
 institution: senate
-headline: Passing the Icenia Contract Law Act
+headline: Passing the Icenia Contract Law Bill
 date: 2023-10-12 17:01:00 +01:00
 document:
   type: local-file

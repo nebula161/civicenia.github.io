@@ -2,7 +2,7 @@
 changetolaw: true
 layout: lawchange
 institution: senate
-headline: Passing the Hansard Act
+headline: Passing the Hansard Bill
 date: 2022-11-16 00:52:00 +00:00
 document:
   type: local-file

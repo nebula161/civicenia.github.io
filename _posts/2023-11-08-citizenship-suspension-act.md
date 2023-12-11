@@ -2,7 +2,7 @@
 changetolaw: true
 layout: lawchange
 institution: senate
-headline: Passing the Citizenship Suspension Act
+headline: Passing the Citizenship Suspension Bill
 date: 2023-11-08 17:03:00 +00:00
 document:
   type: markdown

@@ -2,7 +2,7 @@
 changetolaw: true
 layout: lawchange
 institution: senate
-headline: Amending the Building Regulations Act
+headline: Amending the Building Regulations Bill
 date: 2023-10-03 21:24:00 +01:00
 document:
   type: markdown
