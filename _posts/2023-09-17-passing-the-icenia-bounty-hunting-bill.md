@@ -13,8 +13,8 @@ document:
     be subsequently banned from Icenian lands and potentially be subject to
     prosecution dependent on the situation.
 changes:
-  - target: third-constitution
-    kind: amendment
+  - target: bounty-hunting-act
+    kind: passage
 icon: /assets/images/law_stock.jpeg
 ---
 Senator JuniorTides's proposal was approved by the Senate and by President ChrisChrispie.<!--more-->
