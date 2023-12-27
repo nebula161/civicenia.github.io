@@ -185,3 +185,8 @@ entries:
     name: Subsidized Housing Act
     kind: statute
     googledoc: https://docs.google.com/document/d/1fJY2puqEDm-1d3GcmVGBOVJXAPDIfbkl6YMoNEaJblc/edit
+  - hidden: false
+    slug: red-rocks-pact
+    name: Red Rocks Pact
+    kind: treaty
+    googledoc: https://docs.google.com/document/d/1TtIo7qsznDUc3Uvd_YCLLGbQPo8gzzlfI-yTSlE9COE/edit
