@@ -190,3 +190,9 @@ entries:
     name: Red Rocks Pact
     kind: treaty
     googledoc: https://docs.google.com/document/d/1TtIo7qsznDUc3Uvd_YCLLGbQPo8gzzlfI-yTSlE9COE/edit
+  - hidden: false
+    slug: pnc-pearls-act
+    name: PNC Pearls Act
+    fullname: Post-Nut Clarity Pearls Act
+    kind: statute
+    googledoc: https://docs.google.com/document/d/1Yk2UkyrIpHnH5KcORgsugI1u0-Fwb_GOfip8QSTKeVk/edit
