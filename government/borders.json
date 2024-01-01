@@ -13,7 +13,7 @@ permalink: /government/borders.json
     "info": {
         "version": "3.0.0-beta3",
         {% comment %} Use https://www.epochconverter.com/ to update the "last_update" timestamp {% endcomment %}
-        "last_update": 1703657886
+        "last_update": 1704153484
     },
     "features": [
         {
@@ -84,7 +84,7 @@ permalink: /government/borders.json
             {{ territory_details }}
         },
         {
-            "name": "Icarus Gate (Nether Portal)",
+            "name": "Boartal (Nether Portal)",
             "id": "4dcb8c97-0dc6-411a-aaa9-fa77363af2cf",
             "x": -7720,
             "z": -265,
