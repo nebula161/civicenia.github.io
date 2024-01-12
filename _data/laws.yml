@@ -196,3 +196,8 @@ entries:
     fullname: Post-Nut Clarity Pearls Act
     kind: statute
     googledoc: https://docs.google.com/document/d/1Yk2UkyrIpHnH5KcORgsugI1u0-Fwb_GOfip8QSTKeVk/edit
+  - hidden: false
+    slug: rivia-treaty
+    name: Rivia Friendship Treaty
+    kind: treaty
+    googledoc: https://docs.google.com/document/d/1B3-vgM_m-vEIjSON1UbPCB-P3NL-6vXsoaDk6TLjP5U/edit
