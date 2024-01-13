@@ -181,6 +181,11 @@ entries:
     name: Pavia, CUB Treaty
     googledoc: https://docs.google.com/document/d/174mC_n1rMY_qtHLoNcqIDK9PCXutW7vwGwGjFtKw65s/edit
   - hidden: false
+    slug: gang-shi-band-act
+    name: Gang Shi Band Act
+    kind: statute
+    googledoc: https://docs.google.com/document/d/1PSjDY5l_Ii9SuOmAS3w7LPnzpWiUCQbq9ciPtOL_M-g/edit
+  - hidden: false
     slug: subsidized-housing-act
     name: Subsidized Housing Act
     kind: statute
