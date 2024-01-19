@@ -1,0 +1,92 @@
+---
+import { Astros } from "@helpers";
+import { TITLE, DESCRIPTION, getBordersLink } from "@comptime";
+
+interface Props {
+    title?: string,
+    description?: string,
+    keywords?: string[],
+    noheader?: boolean
+}
+
+const {
+    title = TITLE,
+    description = DESCRIPTION,
+    keywords = [],
+    noheader = false
+} = Astro.props;
+
+const navigationLinks = [
+    Astros.createLink("News", "/news/"),
+    Astros.createLink("Laws", "/laws/"),
+    Astros.createLink("Borders", getBordersLink(Astro), "_blank"),
+    Astros.createLink("Discord", "https://discord.gg/dfwSjCjRN5", "_blank"),
+];
+
+if (Astros.isDevMode()) {
+    navigationLinks.unshift(Astros.createLink("Admin", "/admin/index.html"));
+}
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>{title}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content={description}>
+        <meta name="keywords" content={keywords.join(",")}>
+        <link rel="canonical" href={Astro.url}>
+        <link rel="shortcut icon" href={"/favicon.ico"}/>
+        <link rel="stylesheet" href={"/assets/css/sanitize-13.0.0.css"}/>
+        <link rel="stylesheet" href={"/assets/css/govuk-frontend-4.3.1.min.css"}/>
+        <script is:inline src={"/assets/js/govuk-frontend-4.3.1.min.js"}></script>
+        <style>
+            body {
+               min-height: 100vh;
+               overflow-y: scroll; /* Show scrollbars */
+            }
+        </style>
+    </head>
+    <body>
+        <script is:inline>document.body.className = ((document.body.className) ? document.body.className + " js-enabled" : "js-enabled");</script>
+
+        {!noheader && (<>
+            <style>
+                nav.govuk-header__navigation {
+                    text-align: right;
+                }
+            </style>
+            <header class="govuk-header" role="banner" data-module="govuk-header">
+                <div class="govuk-header__container govuk-width-container">
+                    <div class="govuk-header__logo">
+                        <a href="/" class="govuk-header__link govuk-header__link--homepage">
+                        <span class="govuk-header__logotype">
+                            <img src="/assets/images/icenia_logo.png" width="36px" height="36px" />
+                            <span class="govuk-header__logotype-text">
+                                Icenia
+                            </span>
+                        </span>
+                        </a>
+                    </div>
+                    <div class="govuk-header__content">
+                        <nav aria-label="Menu" class="govuk-header__navigation ">
+                            <ul id="navigation" class="govuk-header__navigation-list">
+                                {navigationLinks.map((link) =>
+                                    <li class="govuk-header__navigation-item">
+                                        <a class="govuk-header__link" href={link.href} target={link.target}>
+                                            {link.label}
+                                        </a>
+                                    </li>
+                                )}
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+        </>)}
+
+        <slot/>
+
+        <script is:inline>GOVUKFrontend.initAll()</script>
+    </body>
+</html>

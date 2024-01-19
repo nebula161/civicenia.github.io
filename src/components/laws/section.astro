@@ -1,0 +1,19 @@
+---
+import { Arrays } from "@helpers";
+import { Laws } from "@collections";
+import Card from "@components/laws/card.astro";
+
+interface Props {
+    header: string
+    fallback: string
+    laws: Laws.Law[]
+}
+
+const {
+    header,
+    fallback,
+    laws
+} = Astro.props;
+---
+<h1>{header}</h1>
+{Arrays.hasElements(laws) ? laws.map((law) => (<Card law={law}/>)) : fallback}

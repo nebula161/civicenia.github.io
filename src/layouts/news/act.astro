@@ -1,0 +1,94 @@
+---
+import { type MarkdownLayoutProps } from "astro";
+import { Nullish, Arrays, Strings } from "@helpers";
+import { Acts, Laws } from "@collections";
+import { getActChangeColours } from "@comptime";
+
+import PostLayout from "@layouts/news/post.astro";
+import Markdown from "@components/markdown.astro";
+
+export type Props = MarkdownLayoutProps<Acts.Act>;
+const { frontmatter } = Astro.props;
+const act = Acts.ensureAct(frontmatter);
+const laws = Arrays.toMap(await Laws.getLaws(), (law) => law.slug);
+---
+<PostLayout chin={false}>
+    <div class="govuk-panel govuk-panel--confirmation">
+        <h1 class="govuk-panel__title">
+            {act.headline}
+        </h1>
+        <div class="govuk-panel__body">
+            {Strings.formatDate(act.date, "dS mmmm yyyy")}
+        </div>
+    </div>
+
+    <div class="govuk-width-container">
+        <div class="govuk-grid-row">
+
+            <div class="govuk-grid-column-two-thirds">
+                {act.document.value === "" ? <slot><br/></slot> : (<>{function(){
+                    switch (act.document.type) {
+                        case "markdown":
+                            return <Markdown raw={act.document.value}/>;
+                        case "local-file":
+                        case "remote-file":
+                            return <iframe src={act.document.value} style="width: 100%; min-width: 100%; max-width: 100%; aspect-ratio: 1 / 1.4142;"></iframe>;
+                        default:
+                            return "UNKNOWN DOCUMENT EMBED!";
+                    }
+                }()}</>)}
+            </div>
+
+            <div class="govuk-grid-column-one-third">
+                {frontmatter.document.value !== "" ? <slot><br/></slot> : ``}
+
+                <style>
+                    a.law-link {
+                        text-decoration: none;
+                    }
+                    a.law-link:hover {
+                        filter: brightness(85%);
+                    }
+
+                    div.law-change {
+                        width: 100%;
+                        text-align: center;
+                        padding: 15px 0;
+                        margin-bottom: 10px;
+                    }
+                    div.law-change:active {
+                        border-bottom: 4px solid #000;
+                        margin-bottom: 6px;
+                    }
+                </style>
+
+                {frontmatter.changes.map((change) => {
+                    const law = Nullish.mustExist(laws.get(change.target));
+                    const colours = getActChangeColours(change.kind);
+                    return (
+                        <a class="govuk-link law-link" href={law.googledoc}>
+                            <div class="law-change" style={`background: #${colours.background}; color: #${colours.text};`}>
+                                <b>
+                                    {function () {
+                                        switch (change.kind) {
+                                            case "passage":
+                                                return "Enacted";
+                                            case "amendment":
+                                                return "Amended";
+                                            case "repeal":
+                                                return "Repealed";
+                                            default:
+                                                return "UNKNOWN";
+                                        }
+                                    }()}
+                                </b>
+                                <br/>
+                                {Laws.getFullTitle(law)}
+                            </div>
+                        </a>
+                    );
+                })}
+            </div>
+        </div>
+    </div>
+</PostLayout>

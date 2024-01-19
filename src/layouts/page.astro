@@ -1,0 +1,21 @@
+---
+interface Props {
+    chin?: boolean
+}
+
+const {
+    chin = true
+} = Astro.props;
+
+import DefaultLayout from "@layouts/default.astro";
+---
+<DefaultLayout>
+    <div class="govuk-width-container">
+        {chin
+            ? (<style>main.govuk-main-wrapper { padding-top: 20px !important; }</style>)
+            : (<style>main.govuk-main-wrapper { padding-top: 0 !important; }</style>)}
+        <main class="govuk-main-wrapper govuk-body" id="main-content" role="main">
+            <slot/>
+        </main>
+    </div>
+</DefaultLayout>

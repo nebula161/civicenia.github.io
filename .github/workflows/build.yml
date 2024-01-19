@@ -1,0 +1,42 @@
+name: "IceniaGov Site Build"
+
+on:
+  push:
+    branches:
+      - "master"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "actions/checkout@v4"
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Installing dependencies
+        run: pnpm install
+
+      - name: Build site
+        run: pnpm run build
+
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: gh-pages
+          build_dir: dist
+        env:
+          # This should be automatically created by Github
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

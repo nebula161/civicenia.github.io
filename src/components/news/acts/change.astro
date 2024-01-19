@@ -1,0 +1,39 @@
+---
+import { Acts } from "@collections";
+import { Arrays } from "@helpers";
+
+interface Props {
+    link: string
+    name: string
+    kind: Arrays.ElementType<Acts.Act["changes"]>["kind"]
+    backgroundColour: string
+    textColour: string
+}
+
+const {
+    link,
+    name,
+    kind,
+    backgroundColour,
+    textColour
+} = Astro.props;
+---
+<a class="govuk-link law-link" href={link}>
+    <div class="law-change" style={`background: #${backgroundColour}; color: #${textColour};`}>
+        <b>
+            {function(){switch (kind) {
+                case "passage":
+                    return "Enacted";
+                case "amendment":
+                    return "Amended";
+                case "repeal":
+                    return "Repealed";
+                default:
+                    return "UNKNOWN";
+            }}()}
+        </b>
+        <br/>
+        {name}
+    </div>
+</a>
+

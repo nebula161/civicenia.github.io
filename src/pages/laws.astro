@@ -1,0 +1,111 @@
+---
+import PageLayout from "@layouts/page.astro";
+import LawSection from "@components/laws/section.astro";
+import Card from "@components/laws/card.astro";
+
+import { Arrays } from "@helpers";
+
+// Had to rename because it weirdly conflicts with laws.astro
+// There's probably some weird Astro shenanigans going on
+import { Laws as AllLaws } from "@collections";
+const laws = await AllLaws.getLaws();
+
+const currentLaws = laws.filter((law) => law.hidden !== true);
+const expiredLaws = laws.filter((law) => law.hidden === true);
+---
+<style>
+    div.law-card {
+        display: block;
+        margin-bottom: 25px;
+        box-shadow: 0 1px 1px 0 rgba(60,64,67,.08),0 1px 3px 1px rgba(60,64,67,.16);
+        color: #373151;
+        text-decoration: none;
+        font-family: "nta", Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    div.law-card-internal {
+        position: relative;
+        display: flex;
+        padding: 10px 15px 10px 15px;
+        border-left: 10px solid #1D70B8;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    div.law-card-content {
+        flex-grow: 1;
+    }
+
+    div.law-card-title {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    div.law-card-supplement {
+        padding-right: 15px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-top: 1px dotted rgb(203, 201, 205);
+        margin-top: 7px;
+        margin-right: -15px;
+        margin-bottom: -10px;
+        color: #717171;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    details.law-details {
+        margin-bottom: 0 !important;
+    }
+
+    a.open-law-link {
+        float: right;
+    }
+</style>
+
+<PageLayout chin={false}>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-one-half">
+            <LawSection
+                    header="Constitution"
+                    fallback="Icenia currently has no Constitutional documents."
+                    laws={currentLaws.filter((law) => law.kind === "constitution")}/>
+        </div>
+        <div class="govuk-grid-column-one-half">
+            <LawSection
+                    header="States"
+                    fallback="Icenia currently has no States."
+                    laws={currentLaws.filter((law) => law.kind === "statehood")}/>
+        </div>
+    </div>
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-one-half">
+            <LawSection
+                    header="Ordinary Law"
+                    fallback="Icenia currently has no statutes."
+                    laws={currentLaws.filter((law) => law.kind === "statute")}/>
+        </div>
+        <div class="govuk-grid-column-one-half">
+            <LawSection
+                    header="Treaties"
+                    fallback="Icenia currently has no treaties."
+                    laws={currentLaws.filter((law) => law.kind === "treaty")}/>
+        </div>
+    </div>
+
+    {Arrays.hasElements(expiredLaws) ? (<>
+        <hr/>
+        <details class="govuk-details" data-module="govuk-details">
+            <summary class="govuk-details__summary">
+            <span class="govuk-details__summary-text">
+                Expired Laws
+            </span>
+            </summary>
+            <div class="govuk-details__text">
+                {expiredLaws.map((law) => <Card law={law}/>)}
+            </div>
+        </details>
+    </>) : ``}
+</PageLayout>

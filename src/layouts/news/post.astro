@@ -1,0 +1,15 @@
+---
+interface Props {
+    chin?: boolean
+}
+
+const {
+    chin = true
+} = Astro.props;
+
+import PageLayout from "@layouts/page.astro";
+---
+<PageLayout chin={chin}>
+    <a href="/news/" class="govuk-back-link">Go to news</a>
+    <slot/>
+</PageLayout>
