@@ -1,3 +1,4 @@
+import { type MarkdownLayoutProps } from "astro";
 import { z, getCollection } from "astro:content";
 import { Arrays } from "@helpers";
 
@@ -37,15 +38,15 @@ export namespace Terms {
         return frontmatter["election"] === true;
     }
 
-    export function ensureTerm<T extends Term>(
-        term: T
-    ): T {
-        term.parties ??= [];
-        for (const party of term.parties) {
+    export function ensureTerm(
+        frontmatter: MarkdownLayoutProps<Term>["frontmatter"]
+    ): Term {
+        frontmatter.parties ??= [];
+        for (const party of frontmatter.parties) {
             party.members ??= [];
             party.exmembers ??= [];
         }
-        return term;
+        return frontmatter;
     }
 
     /**
@@ -64,7 +65,6 @@ export namespace Terms {
 // ############################################################
 
 export namespace Acts {
-    export type Act = z.infer<typeof Schema>;
     export const Schema = NewsItemSchema.extend({
         "layout": z.literal("@layouts/news/act.astro"),
         "changetolaw": z.literal(true),
@@ -78,6 +78,7 @@ export namespace Acts {
             "target": z.string()
         }))
     });
+    export type Act = z.infer<typeof Schema>;
 
     export function isAct(
         frontmatter: any
@@ -85,11 +86,11 @@ export namespace Acts {
         return frontmatter["changetolaw"] === true;
     }
 
-    export function ensureAct<T extends Act>(
-        act: T
-    ): T {
-        act.changes ??= [];
-        return act;
+    export function ensureAct(
+        frontmatter: MarkdownLayoutProps<Act>["frontmatter"]
+    ): Act {
+        frontmatter.changes ??= [];
+        return frontmatter;
     }
 
     /**

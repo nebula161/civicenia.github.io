@@ -6,7 +6,7 @@ import { Terms } from "@collections";
 import PostLayout from "@layouts/news/post.astro";
 
 type Props = MarkdownLayoutProps<Terms.Term>;
-const { frontmatter } = Astro.props;
+const { frontmatter } = Astro.props as Props;
 const term = Terms.ensureTerm(frontmatter);
 ---
 <style>

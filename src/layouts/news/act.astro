@@ -8,7 +8,7 @@ import PostLayout from "@layouts/news/post.astro";
 import Markdown from "@components/markdown.astro";
 
 export type Props = MarkdownLayoutProps<Acts.Act>;
-const { frontmatter } = Astro.props;
+const { frontmatter } = Astro.props as Props;
 const act = Acts.ensureAct(frontmatter);
 const laws = Arrays.toMap(await Laws.getLaws(), (law) => law.slug);
 ---
@@ -40,7 +40,7 @@ const laws = Arrays.toMap(await Laws.getLaws(), (law) => law.slug);
             </div>
 
             <div class="govuk-grid-column-one-third">
-                {frontmatter.document.value !== "" ? <slot><br/></slot> : ``}
+                {act.document.value !== "" ? <slot><br/></slot> : ``}
 
                 <style>
                     a.law-link {
@@ -62,7 +62,7 @@ const laws = Arrays.toMap(await Laws.getLaws(), (law) => law.slug);
                     }
                 </style>
 
-                {frontmatter.changes.map((change) => {
+                {act.changes.map((change) => {
                     const law = Nullish.mustExist(laws.get(change.target));
                     const colours = getActChangeColours(change.kind);
                     return (
