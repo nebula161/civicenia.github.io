@@ -1,5 +1,5 @@
 ---
-import { Astros } from "@helpers";
+import { Astros, Structs } from "@helpers";
 import { TITLE, DESCRIPTION, getBordersLink } from "@comptime";
 
 interface Props {
@@ -17,14 +17,15 @@ const {
 } = Astro.props;
 
 const navigationLinks = [
-    Astros.createLink("News", "/news/"),
-    Astros.createLink("Laws", "/laws/"),
-    Astros.createLink("Borders", getBordersLink(Astro), "_blank"),
-    Astros.createLink("Discord", "https://discord.gg/dfwSjCjRN5", "_blank"),
+    Structs.createLink("News", "/news/"),
+    Structs.createLink("Laws", "/laws/"),
+    Structs.createLink("Government", "/government/"),
+    Structs.createLink("Borders", getBordersLink(Astro), "_blank"),
+    Structs.createLink("Discord", "https://discord.gg/dfwSjCjRN5", "_blank"),
 ];
 
 if (Astros.isDevMode()) {
-    navigationLinks.unshift(Astros.createLink("Admin", "/admin/index.html"));
+    navigationLinks.unshift(Structs.createLink("Admin", "/admin/index.html"));
 }
 ---
 <!DOCTYPE html>

@@ -9,14 +9,6 @@ export namespace Astros {
         return import.meta.env.MODE === "development";
     }
 
-    export function createLink(
-        label: string,
-        href: string,
-        target: "_self" | "_blank" | "_parent" | "_top" = "_self"
-    ) {
-        return { label, href, target };
-    }
-
     export function return404() {
         return new Response(null, {
             status: 404
@@ -52,6 +44,24 @@ export namespace Astros {
             return entry.body;
         }
         return entry.body.substring(0, separatorIndex);
+    }
+}
+
+export namespace Structs {
+    export function createLink(
+        label: string,
+        href: string,
+        target: "_self" | "_blank" | "_parent" | "_top" = "_self"
+    ) {
+        return { label, href, target };
+    }
+
+    export function official(
+        titles: string[],
+        name: string,
+        pfp: string
+    ) {
+        return { titles, name, pfp };
     }
 }
 
