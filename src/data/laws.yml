@@ -3,28 +3,28 @@ entries:
     slug: third-constitution
     name: Constitution of Icenia
     fullname: The Constitution of the Third Republic of Icenia
-    googledoc: https://docs.google.com/document/d/1ESDK-rMbhSdwpUiJl5f1GxGaPQr7Flv9/edit
+    googledoc: https://docs.google.com/document/d/1ESDK-rMbhSdwpUiJl5f1GxGaPQr7Flv9/preview
     kind: constitution
   - hidden: false
     slug: statehood-for-bloom
     name: Viceroyalty of Bloom
     fullname: Statehood for the Viceroyalty of Bloom
-    googledoc: https://docs.google.com/document/d/15VPRXtU5E_jwzrsmuhx4OwhcjdhlXxylRxjOfNRWr3o/edit
+    googledoc: https://docs.google.com/document/d/15VPRXtU5E_jwzrsmuhx4OwhcjdhlXxylRxjOfNRWr3o/preview
     kind: statehood
   - hidden: true
     slug: agenda-for-future-growth
     name: Agendas for Future Growth Act
     fullname: Creation of Icenian Agendas for Future Growth
-    googledoc: https://docs.google.com/document/d/1GnoxazuIKmBgRTVzhj7-WxxU6BZKjz9f/edit
+    googledoc: https://docs.google.com/document/d/1GnoxazuIKmBgRTVzhj7-WxxU6BZKjz9f/preview
     kind: statute
   - hidden: true
     slug: accountability-for-government-and-officials
     name: Accountability for Government Decisions and Officials
-    googledoc: https://docs.google.com/document/d/14jtfjOcfyRnBP9R1q0Y5TqMoRoztlIOz/edit
+    googledoc: https://docs.google.com/document/d/14jtfjOcfyRnBP9R1q0Y5TqMoRoztlIOz/preview
     kind: statute
   - hidden: false
     slug: mdsc-treaty
-    googledoc: https://docs.google.com/document/d/1G9U0BJECO93-apfszHy7r7w9RlPvSr6AjUBw9GNsXSc/edit
+    googledoc: https://docs.google.com/document/d/1G9U0BJECO93-apfszHy7r7w9RlPvSr6AjUBw9GNsXSc/preview
     fullname: Charter of the Mutual Defense and Support Coalition
     name: Mutual Defense and Support Coalition
     kind: treaty
@@ -32,35 +32,35 @@ entries:
     slug: namelayer-act
     name: NameLayer Act
     fullname: The Icenian Namelayer Bill
-    googledoc: https://docs.google.com/document/d/1g9siwslECiQb6ikezds5ZPWxWocMcGPQ/edit
+    googledoc: https://docs.google.com/document/d/1g9siwslECiQb6ikezds5ZPWxWocMcGPQ/preview
     kind: statute
   - hidden: true
     slug: statehood-for-temporal-isles
     name: State of Temporal Isles
     fullname: Statehood for the Temporal Isles
-    googledoc: https://docs.google.com/document/d/1QUDdqb4TquqjqqzAQppC4FdHTD2CPgeEwV6-zFMZAvY/edit
+    googledoc: https://docs.google.com/document/d/1QUDdqb4TquqjqqzAQppC4FdHTD2CPgeEwV6-zFMZAvY/preview
     kind: statehood
   - hidden: true
     slug: expanded-states-rights
     name: Expanded States Rights Act
     fullname: Expanded States Rights Bill
-    googledoc: https://docs.google.com/document/d/1K6s8M3hxwmyY6OAHACVxlMM9ysgiqTWA/edit
+    googledoc: https://docs.google.com/document/d/1K6s8M3hxwmyY6OAHACVxlMM9ysgiqTWA/preview
     kind: statute
   - hidden: true
     slug: titan-treaty
     name: Friendship with Titan
     fullname: Pact of Friendship and Mutual Economic Benefit between Titan
       Industries and Icenia
-    googledoc: https://docs.google.com/document/d/1qZ-8tNMWJXs7wVFuJ30HYSxVPJD_zfCx/edit
+    googledoc: https://docs.google.com/document/d/1qZ-8tNMWJXs7wVFuJ30HYSxVPJD_zfCx/preview
     kind: treaty
   - hidden: true
     slug: formatting-of-dates
     name: Formatting of Dates Act
-    googledoc: https://docs.google.com/document/d/1deh_sb5kH6sY0j7pK2hpgB_OA5P9eKtb/edit
+    googledoc: https://docs.google.com/document/d/1deh_sb5kH6sY0j7pK2hpgB_OA5P9eKtb/preview
     kind: statute
   - hidden: true
     name: Kallos Mututal Defence Pact
-    googledoc: https://docs.google.com/document/d/1QJZ-d2amHWpeFQN8XA-7-s3fdFjn_1pmpwRh03TFaTc/edit
+    googledoc: https://docs.google.com/document/d/1QJZ-d2amHWpeFQN8XA-7-s3fdFjn_1pmpwRh03TFaTc/preview
     kind: treaty
     fullname: Mutual Defense Pact Treaty - Icenia and Kallos
     slug: kallos-defence-pact
@@ -68,39 +68,39 @@ entries:
     slug: statehood-for-petrichor
     name: State of Petrichor
     fullname: Statehood for Petrichor
-    googledoc: https://docs.google.com/document/d/15W1U7h2jFdmRa70KY71374luVs24sFQ5gawD9rWSlbU/edit
+    googledoc: https://docs.google.com/document/d/15W1U7h2jFdmRa70KY71374luVs24sFQ5gawD9rWSlbU/preview
     kind: statehood
   - hidden: true
     slug: sec-treaty
     name: Security Enhancement Coalition
-    googledoc: https://docs.google.com/document/d/1D_RM3q6MjGyVgcV4ce_dopPXs9PLsBhUunGwbAUSqNU/edit
+    googledoc: https://docs.google.com/document/d/1D_RM3q6MjGyVgcV4ce_dopPXs9PLsBhUunGwbAUSqNU/preview
     kind: treaty
   - hidden: true
     slug: temporal-independence
     name: Treaty for Temporal Independence
-    googledoc: https://docs.google.com/document/d/1-a-mEAlyyy1G_E7FT2oawXWl2vC4kXmm/edit
+    googledoc: https://docs.google.com/document/d/1-a-mEAlyyy1G_E7FT2oawXWl2vC4kXmm/preview
     kind: treaty
   - hidden: false
     slug: statute-of-territory
     name: Statute of Territory
-    googledoc: https://docs.google.com/document/d/1k0SDp05DrKwxrjJYdJPcZL9d5BX-7AnFVXwAzx3snNE/edit
+    googledoc: https://docs.google.com/document/d/1k0SDp05DrKwxrjJYdJPcZL9d5BX-7AnFVXwAzx3snNE/preview
     kind: statute
   - hidden: false
     slug: hansard-act
     name: Hansard Act
     fullname: The Hansard Act
     kind: statute
-    googledoc: https://docs.google.com/document/d/1WYTTxP2RXIwvsfFNH8vVSCF2km6YsVp9iUSxJQKXtUw/edit
+    googledoc: https://docs.google.com/document/d/1WYTTxP2RXIwvsfFNH8vVSCF2km6YsVp9iUSxJQKXtUw/preview
   - hidden: true
     slug: temporal-vault-treaty
     name: Temporal Vault Treaty
     kind: treaty
-    googledoc: https://docs.google.com/document/d/1Q6S_pqBjJ2SSOKPLl76jMv-2E5qntW8bCuIZck6iaps/edit
+    googledoc: https://docs.google.com/document/d/1Q6S_pqBjJ2SSOKPLl76jMv-2E5qntW8bCuIZck6iaps/preview
   - hidden: true
     kind: treaty
     name: Butternut Portal Treaty
     slug: butternut-portal-treaty
-    googledoc: https://docs.google.com/document/d/19D4YcCd3btGQP47uOTOY_5LjCpXEdAq8yn1kreFzVEA/edit
+    googledoc: https://docs.google.com/document/d/19D4YcCd3btGQP47uOTOY_5LjCpXEdAq8yn1kreFzVEA/preview
     fullname: Agreement Regarding Use of Western Portal in Icenian Claims Between
       Butternut and Icenia
   - hidden: true
@@ -110,50 +110,50 @@ entries:
     fullname: Pact of Friendship and Mutual Defense Against Raiders for Icenia and Icarus
     slug: icarus-defence-pact
   - hidden: false
-    googledoc: https://docs.google.com/document/d/1HQ1kS1Rej8eq1f7pnklXpQrAD4GMGhkGvqzeDKnRMF8/edit
+    googledoc: https://docs.google.com/document/d/1HQ1kS1Rej8eq1f7pnklXpQrAD4GMGhkGvqzeDKnRMF8/preview
     kind: statute
     name: Building Regulations Act
     slug: building-regulations-act
   - hidden: false
     slug: safe-icenia-act
     name: Safe Icenia Act
-    googledoc: https://docs.google.com/document/d/1x7W6yq_anTNKSOl-NuOHOfYwsdup2h9sU_w-kDwxF4Y/edit
+    googledoc: https://docs.google.com/document/d/1x7W6yq_anTNKSOl-NuOHOfYwsdup2h9sU_w-kDwxF4Y/preview
     kind: statute
   - hidden: true
     slug: icenia-snitches-act
     name: Icenian Snitches Act
-    googledoc: https://docs.google.com/document/d/13RnmyUIWOL2fiC-G9c7l_LDb1-jjLJZ5Xg4k-M1Ul2s/edit
+    googledoc: https://docs.google.com/document/d/13RnmyUIWOL2fiC-G9c7l_LDb1-jjLJZ5Xg4k-M1Ul2s/preview
     kind: statute
   - hidden: false
     slug: statehood-for-southshire
     name: State of Southshire
     fullname: Statehood for Southshire
     kind: statehood
-    googledoc: https://docs.google.com/document/d/1FpIMYdX-XgWmsWD4hBbzdcN_1LFbTJCLu8Wdq5nRmPg/edit
+    googledoc: https://docs.google.com/document/d/1FpIMYdX-XgWmsWD4hBbzdcN_1LFbTJCLu8Wdq5nRmPg/preview
   - hidden: true
     slug: statehood-for-tortugan
     name: State of Tortugán
     fullname: Statehood for Tortugán
     kind: statehood
-    googledoc: https://docs.google.com/document/d/1NMz3GrM462YuyQp2JsTco_EakL-rbJ0W7sWc3dEV9oE/edit
+    googledoc: https://docs.google.com/document/d/1NMz3GrM462YuyQp2JsTco_EakL-rbJ0W7sWc3dEV9oE/preview
   - hidden: false
     slug: dawn-guard-pact
     name: Dawn Guard Pact
     kind: treaty
-    googledoc: https://docs.google.com/document/d/1nMistP4sl2zNftwuaodal9axRSaRk8N74lFcxPG2F6o/edit
+    googledoc: https://docs.google.com/document/d/1nMistP4sl2zNftwuaodal9axRSaRk8N74lFcxPG2F6o/preview
   - hidden: false
     slug: statehood-for-icarus
     name: State of Icarus
     kind: statehood
-    googledoc: https://docs.google.com/document/d/10VMMREwPoON5OqTHE8ku1DIjXNMy7PNP7N-qfMeERj0/edit
+    googledoc: https://docs.google.com/document/d/10VMMREwPoON5OqTHE8ku1DIjXNMy7PNP7N-qfMeERj0/preview
   - hidden: false
     slug: build-back-better-act
     name: Build Back Better Act
     fullname: Icenia Build Back Better Act
     kind: statute
-    googledoc: https://docs.google.com/document/d/11Rw9yE_4JgwBX9IqQc0m6apT48V9fDTRvpmhvrVFsXI/edit
+    googledoc: https://docs.google.com/document/d/11Rw9yE_4JgwBX9IqQc0m6apT48V9fDTRvpmhvrVFsXI/preview
   - hidden: false
-    googledoc: https://docs.google.com/document/d/1cmgBDspJKr6qviGhDwMc0l55D4NWOEUDTd_r4mSrQY8/edit
+    googledoc: https://docs.google.com/document/d/1cmgBDspJKr6qviGhDwMc0l55D4NWOEUDTd_r4mSrQY8/preview
     fullname: Icenia Bounty Hunting Act
     name: Bounty Hunting Act
     slug: bounty-hunting-act
@@ -163,46 +163,46 @@ entries:
     name: Contract Law Act
     fullname: Icenian Contract Law Act
     kind: statute
-    googledoc: https://docs.google.com/document/d/1_jApjWx_Y-3TVnDFiIjJGwjIJ01rSwmOT-G-Peu2zzU/edit
+    googledoc: https://docs.google.com/document/d/1_jApjWx_Y-3TVnDFiIjJGwjIJ01rSwmOT-G-Peu2zzU/preview
   - hidden: false
     slug: articles-of-war
     name: Articles of War
     kind: statute
-    googledoc: https://docs.google.com/document/d/1RGuLnK7WoLMu3O1pGEDLDjNpxORzIaetvWRJ9FqU7DY/edit
+    googledoc: https://docs.google.com/document/d/1RGuLnK7WoLMu3O1pGEDLDjNpxORzIaetvWRJ9FqU7DY/preview
   - hidden: false
     slug: citizenship-suspension-act
     name: Citizenship Suspension Act
     kind: statute
-    googledoc: https://docs.google.com/document/d/1Y0GSbzbgpfuh8zURksDmmENjLkI9VIagUHVxwxh48mg/edit
+    googledoc: https://docs.google.com/document/d/1Y0GSbzbgpfuh8zURksDmmENjLkI9VIagUHVxwxh48mg/preview
   - hidden: false
     kind: treaty
     slug: pavia-cub-treaty
     fullname: Pavia, Council of Universal Betterment Treaty
     name: Pavia, CUB Treaty
-    googledoc: https://docs.google.com/document/d/174mC_n1rMY_qtHLoNcqIDK9PCXutW7vwGwGjFtKw65s/edit
+    googledoc: https://docs.google.com/document/d/174mC_n1rMY_qtHLoNcqIDK9PCXutW7vwGwGjFtKw65s/preview
   - hidden: false
     slug: gang-shi-band-act
     name: Gang Shi Band Act
     kind: statute
-    googledoc: https://docs.google.com/document/d/1PSjDY5l_Ii9SuOmAS3w7LPnzpWiUCQbq9ciPtOL_M-g/edit
+    googledoc: https://docs.google.com/document/d/1PSjDY5l_Ii9SuOmAS3w7LPnzpWiUCQbq9ciPtOL_M-g/preview
   - hidden: false
     slug: subsidized-housing-act
     name: Subsidized Housing Act
     kind: statute
-    googledoc: https://docs.google.com/document/d/1fJY2puqEDm-1d3GcmVGBOVJXAPDIfbkl6YMoNEaJblc/edit
+    googledoc: https://docs.google.com/document/d/1fJY2puqEDm-1d3GcmVGBOVJXAPDIfbkl6YMoNEaJblc/preview
   - hidden: false
     slug: red-rocks-pact
     name: Red Rocks Pact
     kind: treaty
-    googledoc: https://docs.google.com/document/d/1TtIo7qsznDUc3Uvd_YCLLGbQPo8gzzlfI-yTSlE9COE/edit
+    googledoc: https://docs.google.com/document/d/1TtIo7qsznDUc3Uvd_YCLLGbQPo8gzzlfI-yTSlE9COE/preview
   - hidden: false
     slug: pnc-pearls-act
     name: PNC Pearls Act
     fullname: Post-Nut Clarity Pearls Act
     kind: statute
-    googledoc: https://docs.google.com/document/d/1Yk2UkyrIpHnH5KcORgsugI1u0-Fwb_GOfip8QSTKeVk/edit
+    googledoc: https://docs.google.com/document/d/1Yk2UkyrIpHnH5KcORgsugI1u0-Fwb_GOfip8QSTKeVk/preview
   - hidden: false
     slug: rivia-treaty
     name: Rivia Friendship Treaty
     kind: treaty
-    googledoc: https://docs.google.com/document/d/1B3-vgM_m-vEIjSON1UbPCB-P3NL-6vXsoaDk6TLjP5U/edit
+    googledoc: https://docs.google.com/document/d/1B3-vgM_m-vEIjSON1UbPCB-P3NL-6vXsoaDk6TLjP5U/preview
