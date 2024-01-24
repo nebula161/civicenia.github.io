@@ -83,7 +83,7 @@ const laws = Arrays.toMap(await Laws.getLaws(), (law) => law.slug);
                                     }()}
                                 </b>
                                 <br/>
-                                {Laws.getFullTitle(law)}
+                                {law.name}
                             </div>
                         </a>
                     );
