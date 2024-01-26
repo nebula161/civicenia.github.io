@@ -16,6 +16,7 @@ Senator Drekamor's proposal was approved by the Senate and by President ChrisChr
 
 - Senator 7\_misun: Aye
 - Senator Drekamor: Aye
+- Senator imtigertim: Absent
 - Senator Orinnari: Absent
 - Senator Quanton\_Biscuit: Aye
 - Senator Raeders: Aye

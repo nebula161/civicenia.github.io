@@ -36,3 +36,5 @@ The Senate Election returned with the following results:
 - Zolo17: 20
 - Raeders: 18
 - 7\_misun: 14
+
+Senator Cammo37 stood down as a Senator to be appointed the Secretary of the Interior, triggering a by-election, which imtigertim won.

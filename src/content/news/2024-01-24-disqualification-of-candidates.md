@@ -25,9 +25,10 @@ icon: /assets/images/law_stock.jpeg
 ---
 Senator Quanton_Biscuit's proposal was approved by the Senate and by President ChrisChrispie.<!--more-->
 
-* Senator 7_misun: Aye
-* Senator Drekamor: Aye
-* Senator Orinnari: Aye
-* Senator Quanton_Biscuit: Aye
-* Senator Raeders: Aye
-* Senator Zolo17: Aye
+- Senator 7_misun: Aye
+- Senator Drekamor: Aye
+- Senator imtigertim: Absent
+- Senator Orinnari: Aye
+- Senator Quanton_Biscuit: Aye
+- Senator Raeders: Aye
+- Senator Zolo17: Aye
