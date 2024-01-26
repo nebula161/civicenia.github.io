@@ -66,7 +66,7 @@ const laws = Arrays.toMap(await Laws.getLaws(), (law) => law.slug);
                     const law = Nullish.mustExist(laws.get(change.target));
                     const colours = getActChangeColours(change.kind);
                     return (
-                        <a class="govuk-link law-link" href={law.googledoc}>
+                        <a class="govuk-link law-link" href={law.googledoc} target="_blank">
                             <div class="law-change" style={`background: #${colours.background}; color: #${colours.text};`}>
                                 <b>
                                     {function () {
