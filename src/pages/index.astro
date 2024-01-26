@@ -1,5 +1,4 @@
 ---
-// 302 for instant redirect
-// https://github.com/withastro/astro/blob/3ecb3ef64326a8f77aa170df1e3c89cb5c12cc93/packages/astro/src/core/build/generate.ts#L580-L582
-return Astro.redirect("/laws/", 302);
+import { Astros } from "@helpers";
+return Astros.redirect("/laws/");
 ---

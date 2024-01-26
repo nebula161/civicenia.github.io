@@ -15,6 +15,27 @@ export namespace Astros {
         });
     }
 
+    export function redirect(
+        to: string
+    ) {
+        return new Response(`
+            <!DOCTYPE html>
+            <html lang="en">
+                <meta charset="utf-8">
+                <title>Redirecting...</title>
+                <meta name="robots" content="noindex">
+                <meta http-equiv="refresh" content="0;url=${to}">
+                <h1>Redirecting...</h1>
+                <a href="${to}">Click here if you are not redirected.</a>
+            </html>
+        `, {
+            status: 200, // it's only 200 for the rendering engine
+            headers: {
+                "Content-Type": "text/html; charset=utf-8"
+            }
+        });
+    }
+
     /**
      * @example
      * import { type APIContext } from "astro";
