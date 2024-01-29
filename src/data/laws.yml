@@ -112,7 +112,7 @@ entries:
   - hidden: false
     googledoc: https://docs.google.com/document/d/1HQ1kS1Rej8eq1f7pnklXpQrAD4GMGhkGvqzeDKnRMF8/preview
     kind: statute
-    name: Building Regulations Act
+    name: Building Regulations and Subsidies Act
     slug: building-regulations-act
   - hidden: false
     slug: safe-icenia-act
@@ -146,13 +146,13 @@ entries:
     name: State of Icarus
     kind: statehood
     googledoc: https://docs.google.com/document/d/10VMMREwPoON5OqTHE8ku1DIjXNMy7PNP7N-qfMeERj0/preview
-  - hidden: false
+  - hidden: true
     slug: build-back-better-act
     name: Build Back Better Act
     fullname: Icenia Build Back Better Act
     kind: statute
     googledoc: https://docs.google.com/document/d/11Rw9yE_4JgwBX9IqQc0m6apT48V9fDTRvpmhvrVFsXI/preview
-  - hidden: false
+  - hidden: true
     googledoc: https://docs.google.com/document/d/1cmgBDspJKr6qviGhDwMc0l55D4NWOEUDTd_r4mSrQY8/preview
     fullname: Icenia Bounty Hunting Act
     name: Bounty Hunting Act
@@ -185,7 +185,7 @@ entries:
     name: Gang Shi Band Act
     kind: statute
     googledoc: https://docs.google.com/document/d/1PSjDY5l_Ii9SuOmAS3w7LPnzpWiUCQbq9ciPtOL_M-g/preview
-  - hidden: false
+  - hidden: true
     slug: subsidized-housing-act
     name: Subsidized Housing Act
     kind: statute
