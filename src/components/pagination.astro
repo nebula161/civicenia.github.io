@@ -3,14 +3,15 @@ import { type Page } from "astro";
 import { Astros, Nullish } from "../helpers";
 
 interface Props {
-    page: Page
+    page: Page,
+    permalinkRoot: string
 }
 
 if (typeof Astro.props?.page?.currentPage !== "number") {
     return "";
 }
 
-const page = Astro.props.page;
+const { page, permalinkRoot } = Astro.props;
 if (page.lastPage === 1) {
     return "";
 }
@@ -25,13 +26,12 @@ const entries = await Promise.resolve()
     }));
 
 function paginatedLink(
-    url: URL,
     pageNumber: number
-): URL {
+): string {
     if (pageNumber === 1) {
-        return new URL("./", url);
+        return permalinkRoot;
     }
-    return new URL(pageNumber.toString(), url);
+    return permalinkRoot + pageNumber;
 }
 ---
 <nav class="govuk-pagination" role="navigation" aria-label="Pagination">
@@ -57,7 +57,7 @@ function paginatedLink(
             const [pageNumber, isCurrent] = entry as [number, boolean];
             return (
                 <li class={`govuk-pagination__item ${isCurrent ? `govuk-pagination__item--current` : ``}`}>
-                    <a class="govuk-link govuk-pagination__link" href={paginatedLink(Astro.url, pageNumber)} aria-label=`Page ${pageNumber}` aria-current="page">
+                    <a class="govuk-link govuk-pagination__link" href={paginatedLink(pageNumber)} aria-label=`Page ${pageNumber}` aria-current="page">
                         {pageNumber}
                     </a>
                 </li>
