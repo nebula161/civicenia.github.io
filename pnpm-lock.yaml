@@ -8,9 +8,15 @@ dependencies:
   '@astrojs/check':
     specifier: ^0.3.4
     version: 0.3.4(typescript@5.3.3)
+  '@bramus/pagination-sequence':
+    specifier: ^1.2.1
+    version: 1.2.1
   '@rollup/plugin-yaml':
     specifier: ^4.1.2
     version: 4.1.2
+  '@types/bramus__pagination-sequence':
+    specifier: ^1.2.2
+    version: 1.2.2
   '@types/dateformat':
     specifier: ^5.0.2
     version: 5.0.2
@@ -373,6 +379,16 @@ packages:
       '@babel/helper-string-parser': 7.23.4
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
+    dev: false
+
+  /@bramus/pagination-sequence@1.2.1:
+    resolution: {integrity: sha512-cdyxskW2CTvCtAYMSvuNQDhONds5mH9E6Eavcvbslmk8BRMQPFB5FAZkBxM3EOK/3B/nqb8O0DFVKscpxyvxfw==}
+    dependencies:
+      '@bramus/range': 1.1.2
+    dev: false
+
+  /@bramus/range@1.1.2:
+    resolution: {integrity: sha512-Mq/NuO98f8SP8ofrBDkM/6HlTAKSDC6Ikl+x3ihQdOvWaDkhMI0O7XtKTYgyUxYLR2ioVyDcjnXFK0fHk1Kiog==}
     dev: false
 
   /@colors/colors@1.6.0:
@@ -1066,6 +1082,10 @@ packages:
     resolution: {integrity: sha512-WXCyOcRtH37HAUkpXhUduaxdm82b4GSlyTqajXviN4EfiuPgNYR109xMCKvpl6zPIpua0DGlMEDCq+g8EdoheQ==}
     dependencies:
       '@babel/types': 7.23.6
+    dev: false
+
+  /@types/bramus__pagination-sequence@1.2.2:
+    resolution: {integrity: sha512-7563tZWWTNvwHKKxaAOapXB2SRrMJf2uwqOZmcdkyjG9Kw3AFsmQ2hXeOuWGzOCgIZ4sleRBNIi8XRQkqX9O/g==}
     dev: false
 
   /@types/dateformat@5.0.2:

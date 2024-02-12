@@ -1,6 +1,9 @@
+import { type Page } from "astro";
+
 import { stripHtml as INTERNAL_stripHtml } from "string-strip-html";
 import { parse as INTERNAL_parseMarkdown } from "marked";
 import INTERNAL_formatDate from "dateformat";
+import { generateFromObj as INTERNAL_paginate } from "@bramus/pagination-sequence";
 
 import { EXCERPT_SEPARATOR } from "@comptime";
 
@@ -65,6 +68,18 @@ export namespace Astros {
             return entry.body;
         }
         return entry.body.substring(0, separatorIndex);
+    }
+
+    export function paginate(
+        page: Page
+    ): [number | "..."] {
+        return INTERNAL_paginate({
+            curPage: page.currentPage,
+            numPages: page.lastPage,
+            numPagesAtEdges: 1,
+            numPagesAroundCurrent: 1,
+            glue: "..."
+        }) as [number | "..."];
     }
 }
 
