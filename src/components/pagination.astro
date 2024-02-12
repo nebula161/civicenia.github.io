@@ -46,15 +46,15 @@ function paginatedLink(
         </div>
     ) : ``}
     <ul class="govuk-pagination__list">
-        {entries.map((page) => {
-            if (page === "...") {
+        {entries.map((entry) => {
+            if (entry === "...") {
                 return (
                     <li class="govuk-pagination__item govuk-pagination__item--ellipses">
                         &ctdot;
                     </li>
                 );
             }
-            const [pageNumber, isCurrent] = page;
+            const [pageNumber, isCurrent] = entry as [number, boolean];
             return (
                 <li class={`govuk-pagination__item ${isCurrent ? `govuk-pagination__item--current` : ``}`}>
                     <a class="govuk-link govuk-pagination__link" href={paginatedLink(Astro.url, pageNumber)} aria-label=`Page ${pageNumber}` aria-current="page">

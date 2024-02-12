@@ -13,7 +13,7 @@ export async function getStaticPaths({ paginate }) {
         }));
 }
 
-const page = Astro.props.page as Page<CollectionEntry<"news">>;
+const page = Astro.props["page"] as Page<CollectionEntry<"news">>;
 const news = page.data;
 ---
 <style>
