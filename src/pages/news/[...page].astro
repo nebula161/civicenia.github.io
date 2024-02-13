@@ -1,6 +1,7 @@
 ---
 import { type Page } from "astro";
 import { type CollectionEntry, getCollection } from "astro:content";
+import { PERMALINK_ROOTS } from "@comptime";
 import { Astros, Arrays, Strings } from "@helpers";
 import PageLayout from "@layouts/page.astro";
 import Pagination from "@components/pagination.astro";
@@ -12,8 +13,6 @@ export async function getStaticPaths({ paginate }) {
             pageSize: 20
         }));
 }
-
-const permalinkRoot = "/news/";
 const page = Astro.props["page"] as Page<CollectionEntry<"news">>;
 const news = page.data;
 ---
@@ -90,7 +89,7 @@ const news = page.data;
 
 <PageLayout chin={true}>
     {news.map((entry) => (
-        <a class="news-item-wrapper" href={permalinkRoot + entry.slug}>
+        <a class="news-item-wrapper" href={PERMALINK_ROOTS.news + entry.slug}>
             <div class="news-item-internal">
                 <div class="news-item-icon-wrapper">
                     <img src={entry.data.icon} width="100px" height="100px"/>
@@ -104,5 +103,5 @@ const news = page.data;
         </a>
     ))}
 
-    <Pagination {page} {permalinkRoot}/>
+    <Pagination {page} permalinkRoot={PERMALINK_ROOTS.news}/>
 </PageLayout>

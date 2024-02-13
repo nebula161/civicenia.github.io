@@ -1,4 +1,6 @@
 ---
+import { PERMALINK_ROOTS } from "@comptime";
+
 interface Props {
     chin?: boolean
 }
@@ -10,6 +12,6 @@ const {
 import PageLayout from "@layouts/page.astro";
 ---
 <PageLayout chin={chin}>
-    <a href="/news/" class="govuk-back-link">Go to news</a>
+    <a href={PERMALINK_ROOTS.news} class="govuk-back-link">Go to news</a>
     <slot/>
 </PageLayout>

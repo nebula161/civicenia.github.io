@@ -5,6 +5,10 @@ export const DESCRIPTION = "They work for you.";
 
 export const EXCERPT_SEPARATOR = "<!--more-->";
 
+export const PERMALINK_ROOTS = Object.freeze({
+    news: "/news/",
+});
+
 export function getActChangeColours(
     type: "passage" | "amendment" | "repeal" | string
 ): { background: string, text: string } {
