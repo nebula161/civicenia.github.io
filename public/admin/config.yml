@@ -18,6 +18,7 @@ collections:
         file: "src/data/laws.yml"
         fields:
           - label: "Laws"
+            label_singular: "Law"
             name: "entries"
             widget: "list"
             default: []
@@ -58,7 +59,7 @@ collections:
                 name: "googledoc"
                 widget: "string"
                 required: true
-                hint: "What's the Google Doc link? Make sure it ends in `/edit`. And make sure it's an archived copy that wont be modified in future."
+                hint: "What's the Google Doc link? Make sure it ends in `/preview`. And make sure it's an archived copy owned by Icenia."
               # Expired?
               - label: "Expired"
                 name: "hidden"
@@ -109,7 +110,7 @@ collections:
         name: "headline"
         widget: "string"
         required: true
-        hint: "The headline to show readers, e.g: Passage of the Bill of Rights"
+        hint: "The headline to show readers, e.g: Passing the Bill of Rights"
       # Date
       - label: "When did this change go into effect?"
         name: "date"
@@ -125,7 +126,7 @@ collections:
         name: "excerpt"
         widget: "text"
         required: false
-        hint: "Leave empty if you'd prefer it to be inferred from content."
+        hint: "Leave empty if you'd prefer it to be inferred from the content block."
         default: null
       # Bill Embed
       - label: "How are you embedding this?"
@@ -160,22 +161,22 @@ collections:
             value_field: "entries.*.slug"
             display_fields: ["entries.*.name"]
             default: ""
-            hint: "Just start typing and it'll search for that legislation. Click the correct result. The law file needs to already exist."
-          - label: "Change"
+            hint: "Just start typing and it'll search for that legislation. Click the correct result. The law needs to already exist in the 'Laws' collection."
+          - label: "How"
             name: "kind"
             widget: "select"
             options:
-              - {label: "Passed new law", value: "passage"}
-              - {label: "Amended the law", value: "amendment"}
-              - {label: "Repealed the law", value: "repeal"}
+              - {label: "Enacted", value: "passage"}
+              - {label: "Amended", value: "amendment"}
+              - {label: "Repealed", value: "repeal"}
             default: ""
-        hint: "What does this Bill do in regards to changes to law? Note that Great Repeal Bills, and other wholly 'effecting' Bills, needn't have their own law page, nor include a change here passing themselves."
+        hint: "What laws does this Bill effect and how? The ordering should reflect what's in the Bill itself."
       # Content
       - label: "Content"
         name: "body"
         widget: "markdown"
         required: false
-        hint: "You do not need to include the title in the body."
+        hint: "You needn't include the title."
       # Icon
       - label: "Icon"
         name: "icon"
@@ -224,6 +225,7 @@ collections:
         value_type: "int"
         min: 1
         step: 1
+        hint: "THIS WILL NOT AUTO-INCREMENT! PLEASE MANUALLY CHECK THAT THIS IS 1-HIGHER THAN THE PREVIOUS ELECTION!"
       # Date
       - label: "When was the election certified?"
         name: "date"
@@ -261,19 +263,20 @@ collections:
             widget: "list"
             allow_add: true
             default: []
+            hint: "Who is a member of this part? (As a comma-separated list)"
           - label: "Former Members"
             name: "exmembers"
             widget: "list"
             allow_add: true
             default: []
-            hint: "Any members that left the party during the term."
-        hint: "Put the parties in order of campaign annoucement. Independents should always go last."
+            hint: "The Senators who left this party (or resigned) during their term. (As a comma-separated list)"
+        hint: "Put the parties in order of campaign announcement. Independents should always go last."
       # Content
       - label: "Content"
         name: "body"
         widget: "markdown"
         required: false
-        hint: "Is there anything you'd like to note down about this term?"
+        hint: "You should include the election results here. Also any other information like Senators resigning, by-elections, etc."
       # Icon
       - label: "Icon"
         name: "icon"

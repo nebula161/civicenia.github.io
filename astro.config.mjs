@@ -6,6 +6,10 @@ export default defineConfig({
     site: "https://civicenia.github.io",
     base: "",
 
+    server: {
+        port: 4000,
+    },
+
     vite: {
         plugins: [
             yaml()
