@@ -206,3 +206,9 @@ entries:
     name: Rivia Friendship Treaty
     kind: treaty
     googledoc: https://docs.google.com/document/d/1B3-vgM_m-vEIjSON1UbPCB-P3NL-6vXsoaDk6TLjP5U/preview
+  - hidden: false
+    slug: ascendancy-charter
+    name: The Ascendancy
+    fullname: Ascendancy of Sovereign Nations
+    kind: treaty
+    googledoc: https://docs.google.com/document/d/e/2PACX-1vSrRjd92TaE0IzqV6MLBH7J7xaXfJJt2WhaPf9GBxqbuks9nMGJAlPVMxCzcFogVxsDrBOj4UTX0gnS/pub
