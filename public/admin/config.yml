@@ -247,7 +247,7 @@ collections:
             name: "name"
             widget: "string"
             required: true
-            hint: "You should also include a parenthesised acronym / initialism if applicable"
+            hint: "You should also include a parenthesised acronym/initialism if applicable (eg: Homeowner's Association (HOA))"
           - label: "Background Colour"
             name: "bgcolour"
             widget: "color"
@@ -263,13 +263,13 @@ collections:
             widget: "list"
             allow_add: true
             default: []
-            hint: "Who is a member of this part? (As a comma-separated list)"
+            hint: "Which members of this party got elected? (As a comma-separated list)"
           - label: "Former Members"
             name: "exmembers"
             widget: "list"
             allow_add: true
             default: []
-            hint: "The Senators who left this party (or resigned) during their term. (As a comma-separated list)"
+            hint: "The Senators who defected from this party (or resigned) during their term. (As a comma-separated list)"
         hint: "Put the parties in order of campaign announcement. Independents should always go last."
       # Content
       - label: "Content"
