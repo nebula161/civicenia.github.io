@@ -10,6 +10,7 @@ document:
 changes:
   - target: ascendancy-charter
     kind: passage
+excerpt: "The Senate & President voted unanimously to approve joining the Ascendancy of Sovereign Nations"
 icon: /assets/images/law_stock.jpeg
 ---
 Speaker of the Senate Quanton Biscuit's proposal was approved by the Senate and by President Chris Chrispie
