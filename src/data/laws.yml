@@ -180,7 +180,7 @@ entries:
     fullname: Pavia, Council of Universal Betterment Treaty
     name: Pavia, CUB Treaty
     googledoc: https://docs.google.com/document/d/174mC_n1rMY_qtHLoNcqIDK9PCXutW7vwGwGjFtKw65s/preview
-  - hidden: false
+  - hidden: true
     slug: gang-shi-band-act
     name: Gang Shi Band Act
     kind: statute
@@ -195,7 +195,7 @@ entries:
     name: Red Rocks Pact
     kind: treaty
     googledoc: https://docs.google.com/document/d/1TtIo7qsznDUc3Uvd_YCLLGbQPo8gzzlfI-yTSlE9COE/preview
-  - hidden: false
+  - hidden: true
     slug: pnc-pearls-act
     name: PNC Pearls Act
     fullname: Post-Nut Clarity Pearls Act
