@@ -4,7 +4,8 @@ layout: "@layouts/news/act.astro"
 institution: senate
 headline: Amend Article 1 of the Hansard Act
 date: 2024-03-05 19:31:00 -05:00
-excerpt: ""
+excerpt: Senator 7_Misun's proposal, on behalf of Shadno, was approved by the
+  Senate and President Chris_Chrispie
 document:
   type: markdown
   value: >-
@@ -27,8 +28,7 @@ changes:
     kind: amendment
 icon: /assets/images/law_stock.jpeg
 ---
-Senator 7_misun's proposal on behalf of Shadno was accepted by the Senate and President Chris_Chrispie
-
+Senator 7_misun's proposal on behalf of Shadno was accepted by the Senate and President Chris_Chrispie \
 <!--more-->
 
 * Senator Junior_Tide: Aye

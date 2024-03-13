@@ -4,18 +4,21 @@ layout: "@layouts/news/act.astro"
 institution: senate
 headline: Repeal PNC Pearls Act
 date: 2024-03-05 19:31:00 -05:00
-excerpt: >-
-  Pearls in this act fall under the Articles of War, and furthermore fall under
-
-
-  (c) Military Tribunal
-
-  Prisoners captured in war or in military operations will be subject to a military tribunal....
-
-  @Senator Please vote yay or nay
+excerpt: Senator 7_Misun's proposal, on behalf of Shadno, was accepted by the
+  Senate and ChrisChrispie
 document:
   type: markdown
-  value: Repeal the PNC pearls act
+  value: >+
+    Pearls in this act fall under the Articles of War, and furthermore fall
+    under
+
+
+    (c) Military Tribunal
+
+    Prisoners captured in war or in military operations will be subject to a military tribunal....
+
+    @Senator Please vote yay or nay
+
 changes:
   - target: pnc-pearls-act
     kind: repeal
