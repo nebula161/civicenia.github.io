@@ -4,7 +4,7 @@ layout: "@layouts/news/act.astro"
 institution: senate
 headline: Repeal PNC Pearls Act
 date: 2024-03-05 19:31:00 -05:00
-excerpt: Senator 7_Misun's proposal, on behalf of Shadno, was accepted by the
+excerpt: Senator 7_Misun's proposal, on behalf of Shadno, was approved by the
   Senate and President Chris_Chrispie
 document:
   type: markdown
