@@ -5,7 +5,7 @@ institution: senate
 headline: Repeal PNC Pearls Act
 date: 2024-03-05 19:31:00 -05:00
 excerpt: Senator 7_Misun's proposal, on behalf of Shadno, was approved by the
-  Senate and President Chris_Chrispie
+  Senate and President ChrisChrispie
 document:
   type: markdown
   value: Move the pearls held under the PNC pearls act into the purview of the

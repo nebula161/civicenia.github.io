@@ -12,7 +12,7 @@ changes:
     kind: repeal
 icon: /assets/images/law_stock.jpeg
 ---
-Senator 7_Misun's proposal, on behalf of Shadno, was approved by the Senate and President Chris_Chrispie
+Senator 7_Misun's proposal, on behalf of Shadno, was approved by the Senate and President ChrisChrispie
 
 <!--more-->
 
