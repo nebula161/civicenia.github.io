@@ -212,3 +212,10 @@ entries:
     fullname: Ascendancy of Sovereign Nations
     kind: treaty
     googledoc: https://docs.google.com/document/d/e/2PACX-1vSrRjd92TaE0IzqV6MLBH7J7xaXfJJt2WhaPf9GBxqbuks9nMGJAlPVMxCzcFogVxsDrBOj4UTX0gnS/pub
+  - hidden: false
+    slug: exyria-nap
+    name: Exyia Icenia NAP
+    fullname: Pact of Non Aggression between Icenia and Exyria
+    kind: treaty
+    googledoc: https://docs.google.com/document/d/e/2PACX-1vRG_bY4inHKtH4rQynU0pGAymKsvM6GzxUHwUGr5CXNMrhF8ETH7E9AUKncAFvcKA/pub
+
