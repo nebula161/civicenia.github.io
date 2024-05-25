@@ -5,4 +5,4 @@ await watch({
     root: ".",
 });
 
-await import("netlify-cms-proxy-server");
+await import("decap-server");
