@@ -81,7 +81,51 @@ Once you've finished editing something in the dashboard, you should see in the t
   - Open `/src/pages/government/borders.json.ts` in your IDE.
   - Open http://localhost:4000/government/map in your browser.
   - Ensure the "Icenian Territory" collection is toggled on.
-  - The map page should automatically update anytime the file is saved.
+  - Keep in mind that the `borders.json.ts` is the source of truth. If you update the polygon on the map and then refresh, it'll just revert to what the `borders.json.ts` says.
+    - Updating polygons:
+      - The map interface sadly has no way to export individual polygons; it'll instead export a whole feature like ALL of Bloom.
+      - For the sake of guidance, let's say you've edited a Bloomean polygon.
+      - In `borders.json.ts` each polygon is labelled. Did you edit Bloom proper, Cane Corp, etc?
+      - For the sake of guidance, let's say you've edited the "Petrichor (City Exclave)" polygon, which is the 4th polygon, remember that.
+      - Copy the exported JSON (from the map interface) into the left-side of https://jsonformatter.org/json-pretty-print
+      - You should notice the `name` and `id` values in the JSON. You've effectively got the whole block of JSON, this means you need to extract the modified polygon.
+      - Keep the spacing to "2 Tab Space", then click "Make Pretty"
+      - On the right side, underneath the "o" in "polygon" will be a `[`. On that line, next to the line-number, should be a triangular down-arrow. Click that.
+      - That whole polygon should now be collapsed to look like `[↔],`
+      - Since "Petrichor (City Exclave)" is the 4th polygon, we need to do this another 3 times.
+      - The right side should now look like:
+        ```json
+        {
+          "name": "Bloom (Icenia)",
+          "id": "087ac1aa-2c98-4496-8ed7-ccbe2050c25b",
+          "polygon": [
+            [↔],
+            [↔],
+            [↔],
+            [↔]
+          ],
+          "notes": "The Viceroyalty of Bloom became a State of Icenia on 27th June 2022. Petrichor merged into Bloom on 19th March 2023.",
+          "nation": "Republic of Icenia",
+          "website": "http://localhost:4000",
+          "color": "#00C9FF",
+          "collectionId": "civmc/icenia/territory"
+        }
+        ```
+      - Select the 4th `[↔]` (ensure there's no `,` at the end since it's the last polygon and JSON doesn't allow trailing commas) and copy.
+      - Then select the whole "Petrichor (City Exclave)" labelled polygon in `borders.json.ts` and then paste, it should now be replaced with the updated polygon, not with `[↔]`.
+      - If you have a modern IDE, that line should now be tagged blue somehow to indicate an edited line.
+      - Save.
+      - Refresh the map.
+      - The map should now have the updated polygon.
+    - Adding polygons:
+      - The map interface sadly has no way to add polygons to an existing feature, so we have to do this manually.
+      - Draw a new polygon on the map, then paste the exported JSON into the left side of https://jsonformatter.org/json-pretty-print
+      - Follow the instructions in the relevant section of the `Updating polygons` guide until you have `[↔]` copied.
+      - Paste the `[↔]` into the end of the "polygon" array of the feature (Icenia, Bloom, Icarus, etc) you want to add the polygon to.
+      - Make sure the label the added polygon something obvious so that others (and your future self) knows what that polygon is.
+      - Save.
+      - Refresh the map.
+      - The polygon should now be part of that feature, though it may be hidden beneath the original polygon you drew.
 
 
 - Officials:
