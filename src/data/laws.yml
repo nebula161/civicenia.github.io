@@ -174,7 +174,7 @@ entries:
     name: Citizenship Suspension Act
     kind: statute
     googledoc: https://docs.google.com/document/d/1Y0GSbzbgpfuh8zURksDmmENjLkI9VIagUHVxwxh48mg/preview
-  - hidden: false
+  - hidden: true
     kind: treaty
     slug: pavia-cub-treaty
     fullname: Pavia, Council of Universal Betterment Treaty
