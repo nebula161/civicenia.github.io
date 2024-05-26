@@ -218,4 +218,9 @@ entries:
     fullname: Pact of Non Aggression between Icenia and Exyria
     kind: treaty
     googledoc: https://docs.google.com/document/d/e/2PACX-1vRG_bY4inHKtH4rQynU0pGAymKsvM6GzxUHwUGr5CXNMrhF8ETH7E9AUKncAFvcKA/pub
-
+  - hidden: false
+    slug: commonwealth-nap
+    name: Lyrean Commonwealth Pact
+    fullname: Lyrean Commonwealth Friendship Pact
+    kind: treaty
+    googledoc: https://docs.google.com/document/d/e/2PACX-1vR4OylqJT25E5awbWEelT2kiGQAW19csccLu21slf4q2_F9NRf05N1MjZS3ym2uCErC2asP-YYBvw-O/pub
