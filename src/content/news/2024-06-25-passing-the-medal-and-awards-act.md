@@ -4,7 +4,8 @@ layout: "@layouts/news/act.astro"
 institution: senate
 headline: Passing the Medal and Awards Act
 date: 2024-05-23 15:31:00 -04:00
-excerpt: ""
+excerpt: Senator Complexii's proposal, was approved by the Senate and by
+  President Chris Chrispie.
 document:
   type: local-file
   value: /public/archive/beb3eedb-efce-4c23-a9c3-36ebf8280e06
