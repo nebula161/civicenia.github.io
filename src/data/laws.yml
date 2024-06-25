@@ -224,3 +224,9 @@ entries:
     fullname: Lyrean Commonwealth Friendship Pact
     kind: treaty
     googledoc: https://docs.google.com/document/d/e/2PACX-1vR4OylqJT25E5awbWEelT2kiGQAW19csccLu21slf4q2_F9NRf05N1MjZS3ym2uCErC2asP-YYBvw-O/pub
+  - hidden: false
+    slug: medal-awards-act
+    name: Medal and Award Act
+    fullname: The Medal and Award Act
+    kind: statute
+    googledoc: https://docs.google.com/document/d/e/2PACX-1vQfnqI09FgM1X-WSZnmckgYXYqjxCCWSjRmCvMZSHvbw2Pw2eNahZFtCYiVtGN11G_mUD2iI6FkhMsA/pub
