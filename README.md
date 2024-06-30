@@ -2,17 +2,17 @@
 
 ## Installing the site
 
-You'll need [git](https://git-scm.com/downloads), [node 20](https://nodejs.org/en/download/), and [pnpm](https://pnpm.io/installation).
+You'll need [git](https://git-scm.com/downloads) and [Bun](https://bun.sh/).
 
 - Clone the repo: `git clone https://github.com/CivIcenia/civicenia.github.io.git IceniaGov`
 
 - Change directories into the cloned repo: `cd IceniaGov`
 
-- Install the site's dependencies: `pnpm install`
+- Install the site's dependencies: `bun install`
 
 ## Updating the Site
 
-There is a script called `admin.mjs`, which you can invoke via `./admin.mjs` or `node admin.mjs`. This script will run [Astro](https://docs.astro.build/en/getting-started/) in development mode and start a [NetlifyCMS](https://v1.netlifycms.org/) proxy. You can access the NetlifyCMS dashboard by going to http://localhost:4000/admin/index.html, or by clicking the "Admin" navigation link on the site.
+There is a script called `admin.ts`, which you can invoke via `./admin.ts` or `bun admin.ts`. This script will run [Astro](https://docs.astro.build/en/getting-started/) in development mode and start a [NetlifyCMS](https://v1.netlifycms.org/) proxy. You can access the NetlifyCMS dashboard by going to http://localhost:4000/admin/index.html, or by clicking the "Admin" navigation link on the site.
 
 The NetlifyCMS dashboard is extremely helpful when entering new bills and laws, but can be cumbersome with elections. I recommend using both the dashboard and your IDE with elections since you can then copy-paste party names and colours wholesale. DO NOT REMOVE REPEALED LAWS! Just toggle the "EXPIRED" switch in the dashboard.
 
@@ -24,7 +24,7 @@ Once you've finished editing something in the dashboard, you should see in the t
 
 - Laws:
   - YOU NEED TO ADD THE LAW BEFORE YOU CAN POST THE BILL THAT ENACTED THE LAW!
-  - Run `admin.mjs`
+  - Run `admin.ts`
   - Open http://localhost:4000/admin/index.html
   - Click "Data" in the sidebar.
   - Click "Laws", this should bring up a page with all laws ordered from oldest to newest.
@@ -34,7 +34,7 @@ Once you've finished editing something in the dashboard, you should see in the t
 
 
 - Bills:
-  - Run `admin.mjs`
+  - Run `admin.ts`
   - Open http://localhost:4000/admin/index.html
   - Click "Changes to Law" in the sidebar.
   - Click "New Change to Law"
@@ -66,7 +66,7 @@ Once you've finished editing something in the dashboard, you should see in the t
 
 
 - Elections:
-  - Run `admin.mjs`
+  - Run `admin.ts`
   - Open http://localhost:4000/admin/index.html
   - Click "Elections" in the sidebar.
   - Click "New Election"
@@ -77,7 +77,7 @@ Once you've finished editing something in the dashboard, you should see in the t
 
 
 - Border Polygons:
-  - Run `admin.mjs`
+  - Run `admin.ts`
   - Open `/src/pages/government/borders.json.ts` in your IDE.
   - Open http://localhost:4000/government/map in your browser.
   - Ensure the "Icenian Territory" collection is toggled on.
@@ -129,7 +129,7 @@ Once you've finished editing something in the dashboard, you should see in the t
 
 
 - Officials:
-  - Run `admin.mjs`
+  - Run `admin.ts`
   - Open `src/pages/government/officials.astro` in your IDE.
   - Use https://toolscord.com/ to get the profile-pictures of each official.
   - Use their IGN, if known. Or otherwise use their Discord name, simplified if necessary.
@@ -138,7 +138,7 @@ Once you've finished editing something in the dashboard, you should see in the t
 
 
 - Publishing
-  - Always do `pnpm run build` before committing and pushing.
+  - Always do `bun run build` before committing and pushing.
   - The site should automatically republish itself anytime you push to master.
   - If something goes wrong on Github's end, and you need to attempt a republish, do:
     - Click the "Actions" tab above (assuming you're on this repo's Github page)
