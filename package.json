@@ -18,7 +18,7 @@
         "astro": "^4.11.3",
         "dateformat": "^5.0.3",
         "decap-server": "^3.0.4",
-        "marked": "^11.1.1",
+        "marked": "^11.2.0",
         "sanitize.css": "^13.0.0",
         "string-strip-html": "^13.4.5"
     }
