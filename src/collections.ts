@@ -121,10 +121,9 @@ export namespace Laws {
     });
 
     export async function getLaws(): Promise<Law[]> {
-        return (LawsData["entries"] as any[])
+        return LawsData["entries"]
             .map((law) => Schema.safeParse(law))
             .filter((parsed) => parsed.success)
-            // @ts-ignore
             .map((parsed) => parsed["data"]);
     }
 
