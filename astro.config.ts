@@ -17,6 +17,7 @@ export default defineConfig({
     },
 
     redirects: {
+        // Old Jekyll page redirects
         "/2022-06-20/constitution-ratified": "/news/2022-06-20-constitution-ratified",
         "/2022-06-23/senate-election": "/news/2022-06-23-senate-election",
         "/2022-06-27/approving-statehood-for-bloom": "/news/2022-06-27-approving-statehood-for-bloom",
@@ -104,6 +105,17 @@ export default defineConfig({
         "/2023-12-23/red-rocks-pact": "/news/2023-12-23-red-rocks-pact",
         "/2023-12-27/end-state-of-war-bill": "/news/2023-12-27-end-state-of-war-bill",
         "/2024-01-02/senate-election": "/news/2024-01-02-senate-election",
-        "/2024-01-08/rivia-treaty": "/news/2024-01-08-rivia-treaty"
+        "/2024-01-08/rivia-treaty": "/news/2024-01-08-rivia-treaty",
+
+        // After running ./fix-dates.ts (4th July 2024)
+        "/news/2024-03-05-joining-the-ascendancy": "/news/2024-02-06-joining-the-ascendancy",
+        "/news/2024-03-13-amend-article-1-of-the-hansard-act": "/news/2024-03-06-amend-article-1-of-the-hansard-act",
+        "/news/2024-03-13-repeal-the-gang-shi-band-act": "/news/2024-03-06-repeal-the-gang-shi-band-act",
+        "/news/2024-02-03-trial-reform-amendment": "/news/2024-02-04-trial-reform-amendment",
+        "/news/2024-03-22-passing-the-tribune-amendment": "/news/2024-03-17-passing-the-tribune-amendment",
+        "/news/2024-06-25-passing-the-medal-and-awards-act": "/news/2024-05-23-passing-the-medal-and-awards-act",
+        "/news/2024-04-05-non-aggression-pact-between-icenia-and-exyria": "/news/2024-03-19-non-aggression-pact-between-icenia-and-exyria",
+        "/news/2024-03-13-repeal-pnc-pearls-act": "/news/2024-03-06-repeal-pnc-pearls-act",
+        "/news/2023-12-09-nullifing-the-butternut-portal-treaty": "/news/2023-12-04-nullifing-the-butternut-portal-treaty",
     }
 });
