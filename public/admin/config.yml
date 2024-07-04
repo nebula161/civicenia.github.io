@@ -192,7 +192,8 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-senate-election"
     identifier_field: "headline"
-    description: "NetlifyCMS doesn't support auto-increment yet. You'll need to make sure to enter a properly incremented term number! Best to sort by Term Number in descending order and see the top result."
+    summary: "[Term: {{term}}] {{headline}}"
+    description: "DecapCMS doesn't support auto-increment yet. You'll need to make sure to enter a properly incremented term number! Best to sort by Term Number in descending order and see the top result."
     extension: "md"
     format: "yaml-frontmatter"
     editor: { preview: false }
