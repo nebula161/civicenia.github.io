@@ -59,7 +59,7 @@ export namespace Astros {
         }
     ): string {
         // @ts-ignore
-        const excerpt = entry.data.excerpt ?? null;
+        const excerpt = entry.data.excerpt || null;
         if (excerpt !== null) {
             return excerpt;
         }
@@ -187,4 +187,20 @@ export namespace Strings {
 
     export const parseMarkdown = INTERNAL_parseMarkdown;
     export const formatDate = INTERNAL_formatDate;
+}
+
+export namespace Dates {
+    export function parseDate(
+        value: any
+    ): Date | null {
+        if (value instanceof Date) {
+            if (!isNaN(value.getTime())) {
+                return value;
+            }
+        }
+        else if (typeof value === "string" || typeof value === "number") {
+            return parseDate(new Date(value));
+        }
+        return null;
+    }
 }
