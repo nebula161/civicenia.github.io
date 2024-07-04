@@ -4,9 +4,6 @@ layout: "@layouts/news/act.astro"
 institution: senate
 headline: Amending the Safe Icenia Act
 date: 2024-06-25 15:45:00 -04:00
-excerpt: >
-  Senator JuniorTide's proposal, was approved by the Senate and by President
-  Chris Chrispie.
 document:
   type: markdown
   value: >-
@@ -25,11 +22,10 @@ changes:
     kind: amendment
 icon: /assets/images/law_stock.jpeg
 ---
-Senator JuniorTide's proposal was passed by the Senate and approved by President Chris_Chrispie
+Senator JuniorTide's proposal was passed by the Senate and approved by President ChrisChrispie.<!--more-->
 
 * Senator Xcios: Aye
 * Senator Complexii: Aye
 * Senator auqust: Aye
 * Senator Kingstell: Aye
 * Senator Junortide: Aye
-* President Chris_Chrispie: Aye

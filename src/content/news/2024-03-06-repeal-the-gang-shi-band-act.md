@@ -12,9 +12,7 @@ changes:
     kind: repeal
 icon: /assets/images/law_stock.jpeg
 ---
-Senator 7_Misun's proposal, on behalf of Shadno, was approved by the Senate and President ChrisChrispie
-
-<!--more-->
+Senator 7_Misun's proposal, submitted on behalf of Shadno, was approved by the Senate and President ChrisChrispie.<!--more-->
 
 * Senator Gjum: Aye
 * Senator Dr_Bacon_Hair: Aye
@@ -23,4 +21,3 @@ Senator 7_Misun's proposal, on behalf of Shadno, was approved by the Senate and 
 * Senator Junior_Tide: Aye
 * Senator Forged_TK: Aye
 * Senator Xcios: Aye
-* President Chris_Chrispie: Aye

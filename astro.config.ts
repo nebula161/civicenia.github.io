@@ -117,5 +117,8 @@ export default defineConfig({
         "/news/2024-04-05-non-aggression-pact-between-icenia-and-exyria": "/news/2024-03-19-non-aggression-pact-between-icenia-and-exyria",
         "/news/2024-03-13-repeal-pnc-pearls-act": "/news/2024-03-06-repeal-pnc-pearls-act",
         "/news/2023-12-09-nullifing-the-butternut-portal-treaty": "/news/2023-12-04-nullifing-the-butternut-portal-treaty",
+
+        // Better slugs (4th July 2024)
+        "/news/2024-03-19-non-aggression-pact-between-icenia-and-exyria": "/news/2024-03-19-signing-exyria-nap",
     }
 });

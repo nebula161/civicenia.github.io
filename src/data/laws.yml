@@ -174,11 +174,11 @@ entries:
     name: Citizenship Suspension Act
     kind: statute
     googledoc: https://docs.google.com/document/d/1Y0GSbzbgpfuh8zURksDmmENjLkI9VIagUHVxwxh48mg/preview
-  - hidden: true
+  - hidden: false
     kind: treaty
     slug: pavia-cub-treaty
     fullname: Pavia, Council of Universal Betterment Treaty
-    name: Pavia, CUB Treaty
+    name: Pavia, CUB
     googledoc: https://docs.google.com/document/d/174mC_n1rMY_qtHLoNcqIDK9PCXutW7vwGwGjFtKw65s/preview
   - hidden: true
     slug: gang-shi-band-act
@@ -211,22 +211,27 @@ entries:
     name: The Ascendancy
     fullname: Ascendancy of Sovereign Nations
     kind: treaty
-    googledoc: https://docs.google.com/document/d/e/2PACX-1vSrRjd92TaE0IzqV6MLBH7J7xaXfJJt2WhaPf9GBxqbuks9nMGJAlPVMxCzcFogVxsDrBOj4UTX0gnS/pub
-  - hidden: true
+    googledoc: https://docs.google.com/document/d/1gNNDFuBlhZ-Asd0lK6n3Wmf1A9J_BWEIu0FGdOa52Wo/preview
+  - hidden: false
     slug: exyria-nap
-    name: Exyia Icenia NAP
+    name: Exyia, NAP
     fullname: Pact of Non Aggression between Icenia and Exyria
     kind: treaty
-    googledoc: https://docs.google.com/document/d/e/2PACX-1vRG_bY4inHKtH4rQynU0pGAymKsvM6GzxUHwUGr5CXNMrhF8ETH7E9AUKncAFvcKA/pub
+    googledoc: https://docs.google.com/document/d/1hKAOD_TBLOnE2Lo1uJJT-hAOnpKyc4ES/preview
   - hidden: false
-    slug: commonwealth-nap
-    name: Lyrean Commonwealth Pact
-    fullname: Lyrean Commonwealth Friendship Pact
+    slug: pavia-nap
+    name: Pavia, NAP
+    fullname: Icenia & Pavia NAP
     kind: treaty
-    googledoc: https://docs.google.com/document/d/e/2PACX-1vR4OylqJT25E5awbWEelT2kiGQAW19csccLu21slf4q2_F9NRf05N1MjZS3ym2uCErC2asP-YYBvw-O/pub
+    googledoc: https://docs.google.com/document/d/1wcD2cWUQun9MTSRxei5xdBCcGm6sGhavrjunClrNN7Y/preview
   - hidden: false
     slug: medal-awards-act
     name: Medal and Award Act
-    fullname: The Medal and Award Act
+    fullname: Medal and Award Act
     kind: statute
-    googledoc: https://docs.google.com/document/d/e/2PACX-1vQfnqI09FgM1X-WSZnmckgYXYqjxCCWSjRmCvMZSHvbw2Pw2eNahZFtCYiVtGN11G_mUD2iI6FkhMsA/pub
+    googledoc: https://docs.google.com/document/d/1Y6wa0JX8rzhoxY6g2EAXfb8E5KosWiHCZ44psxhIpAI/preview
+  - hidden: false
+    slug: political-parties-act
+    name: Political Parties Act
+    kind: statute
+    googledoc: https://docs.google.com/document/d/1cgq5h8oGIGVkOIhv8XJqOG0KN9WWoNLQvlv2Qf6peQY/preview

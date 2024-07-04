@@ -15,16 +15,10 @@ parties:
     txtcolour: "#F2F2F2"
     members:
       - "JuniorTide"
-  - name: "True Icenian Patriots (TIP)"
-    bgcolour: "#4792E9"
-    txtcolour: "#F2F2F2"
-    members:
-      - "SpeedyJustice"
   - name: "Titan Party"
     bgcolour: "#A3A3A3"
     txtcolour: "#3D3D3D"
     members:
-      - "Naglafer"
       - "zolo17"
   - name: "Independents"
     bgcolour: "#A3A3A3"
@@ -32,18 +26,8 @@ parties:
     members:
       - "Gjum"
       - "Dr_Bacon_Hair"
-      - "raeders"
-      - "slowlyfunny2"
-      - "Cammo37"
-      - "ButtScoot"
-      - "Okx"
-      - "Sdorr"
       - "Xcios"
       - "Forged_TK"
-      - "Sadchamp"
-      - "auqust"
-      - "HG__80"
-      - "MrJeremyFisher"
 excerpt: "Juniortide, Xcios, Gjum, Dr_Bacon_Hair, zolo17, Forged_TK, and 7_Misun were elected to the senate."
 icon: "/assets/images/election_stock.png"
 ---
