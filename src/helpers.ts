@@ -91,14 +91,6 @@ export namespace Structs {
     ) {
         return { label, href, target };
     }
-
-    export function official(
-        titles: string[],
-        name: string,
-        pfp: string
-    ) {
-        return { titles, name, pfp };
-    }
 }
 
 export namespace Nullish {
