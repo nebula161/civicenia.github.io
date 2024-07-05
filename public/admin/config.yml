@@ -211,7 +211,7 @@ collections:
         name: "layout"
         widget: "hidden"
         required: true
-        default: "@layouts/news/term.astro"
+        default: "@layouts/news/election.astro"
       # Headline
       - label: "Headline"
         name: "headline"

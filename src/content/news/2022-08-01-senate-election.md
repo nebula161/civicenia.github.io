@@ -1,6 +1,6 @@
 ---
 election: true
-layout: "@layouts/news/term.astro"
+layout: "@layouts/news/election.astro"
 headline: August Senate (2022)
 term: 2
 date: 2022-08-01 18:01:00 +01:00

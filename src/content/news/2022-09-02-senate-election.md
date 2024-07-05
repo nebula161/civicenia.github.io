@@ -1,6 +1,6 @@
 ---
 election: true
-layout: "@layouts/news/term.astro"
+layout: "@layouts/news/election.astro"
 headline: September Senate (2022)
 term: 3
 date: 2022-09-02 07:02:00 +01:00

@@ -1,6 +1,6 @@
 ---
 election: true
-layout: "@layouts/news/term.astro"
+layout: "@layouts/news/election.astro"
 headline: January Senate (2023)
 term: 7
 date: 2023-01-08 01:26:00 +00:00

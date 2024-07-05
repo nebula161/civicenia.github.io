@@ -1,6 +1,6 @@
 ---
 election: true
-layout: "@layouts/news/term.astro"
+layout: "@layouts/news/election.astro"
 headline: April Senate (2023)
 term: 10
 date: 2023-04-05 00:41:00 +01:00

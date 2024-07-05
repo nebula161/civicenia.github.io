@@ -1,6 +1,6 @@
 ---
 election: true
-layout: "@layouts/news/term.astro"
+layout: "@layouts/news/election.astro"
 headline: November Senate (2022)
 term: 5
 date: 2022-11-02 18:16:00 +00:00

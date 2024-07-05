@@ -14,13 +14,13 @@ export const NewsItemSchema = CollectionItemSchema.extend({
 });
 
 // ############################################################
-// Terms
+// Elections
 // ############################################################
 
-export namespace Terms {
-    export type Term = z.infer<typeof Schema>;
+export namespace Elections {
+    export type Election = z.infer<typeof Schema>;
     export const Schema = NewsItemSchema.extend({
-        "layout": z.literal("@layouts/news/term.astro"),
+        "layout": z.literal("@layouts/news/election.astro"),
         "election": z.literal(true),
         "term": z.coerce.number().int().positive(),
         "parties": z.array(z.object({
@@ -32,15 +32,15 @@ export namespace Terms {
         }))
     });
 
-    export function isTerm(
+    export function isElection(
         frontmatter: any
     ) {
         return frontmatter["election"] === true;
     }
 
-    export function ensureTerm(
-        frontmatter: MarkdownLayoutProps<Term>["frontmatter"]
-    ): Term {
+    export function ensureElection(
+        frontmatter: MarkdownLayoutProps<Election>["frontmatter"]
+    ): Election {
         frontmatter.parties ??= [];
         for (const party of frontmatter.parties) {
             party.members ??= [];
@@ -52,9 +52,9 @@ export namespace Terms {
     /**
      * Retrieves all terms sorted from newest to oldest.
      */
-    export async function getTerms() {
+    export async function getElections() {
         return (await getCollection("news"))
-            .filter((entry) => isTerm(entry.data))
+            .filter((entry) => isElection(entry.data))
             .sort(Arrays.sortByDate((entry) => entry.data.date))
             .reverse();
     }

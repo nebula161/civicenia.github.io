@@ -1,6 +1,6 @@
 ---
 election: true
-layout: "@layouts/news/term.astro"
+layout: "@layouts/news/election.astro"
 headline: October Senate (2022)
 term: 4
 date: 2022-10-03 21:25:00 +01:00

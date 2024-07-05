@@ -15,17 +15,18 @@ const glob = new Glob("*.md");
 for await (const filepath of glob.scan({ cwd: SOURCE_NEWS_FOLDER, onlyFiles: true })) {
     const filename = path.parse(filepath).name;
 
-    // Convert "2024-02-01-senate-election" to "senate-election"
-    const match = NEWS_REGEX.exec(filename)
-    if (match === null) {
-        console.warn(`Could not match [${filename}] with the news-item regex!`);
-        continue;
+    let slugSuffix = "senate-election"; {
+        // Convert "2024-02-01-senate-election" to "senate-election"
+        const match = NEWS_REGEX.exec(filename)
+        if (match === null) {
+            console.warn(`Could not match [${filename}] with the news-item regex!`);
+            continue;
+        }
+        slugSuffix = match[1];
     }
-    const slugSuffix: string = match[1];
 
-    const file = Bun.file(SOURCE_NEWS_FOLDER + filepath);
     let datePrefix = "0000-00-00"; {
-        const parsed = parseGreyMatter(await file.text());
+        const parsed = parseGreyMatter(await Bun.file(SOURCE_NEWS_FOLDER + filepath).text());
         const date = Dates.parseDate(parsed.data.date);
         if (date === null) {
             console.warn(`Encountered weird date [${parsed.data.date}] within [${filename}]!`);
@@ -40,8 +41,14 @@ for await (const filepath of glob.scan({ cwd: SOURCE_NEWS_FOLDER, onlyFiles: tru
     }
 
     console.warn(`Found incorrectly dated slug! Expected [${expectedFilename}], actual [${filename}]`);
-    await fs.rename(SOURCE_NEWS_FOLDER + filepath, SOURCE_NEWS_FOLDER + expectedFilename + ".md");
-    redirects.set(SITE_NEWS_FOLDER + filename, SITE_NEWS_FOLDER + expectedFilename);
+    await fs.rename(
+        SOURCE_NEWS_FOLDER + filepath,
+        SOURCE_NEWS_FOLDER + expectedFilename + ".md"
+    );
+    redirects.set(
+        SITE_NEWS_FOLDER + filename,
+        SITE_NEWS_FOLDER + expectedFilename
+    );
 }
 
 if (redirects.size > 0) {

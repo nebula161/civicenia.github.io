@@ -1,6 +1,6 @@
 ---
 election: true
-layout: "@layouts/news/term.astro"
+layout: "@layouts/news/election.astro"
 headline: June and July Senate (2022)
 term: 1
 date: 2022-06-23 17:17:00 +01:00

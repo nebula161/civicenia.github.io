@@ -1,6 +1,6 @@
 ---
 election: true
-layout: "@layouts/news/term.astro"
+layout: "@layouts/news/election.astro"
 headline: "May Senate (2024)"
 term: 23
 date: "2024-05-02 19:07:00 +01:00"

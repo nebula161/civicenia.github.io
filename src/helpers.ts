@@ -49,7 +49,11 @@ export namespace Astros {
     export function renderJson(
         json: Json.JSONValue
     ) {
-        return new Response(JSON.stringify(json));
+        return new Response(JSON.stringify(json), {
+            headers: {
+                "Content-Type": "application/json; charset=utf-8"
+            }
+        });
     }
 
     export function getOrGenerateExcerpt(
@@ -58,8 +62,7 @@ export namespace Astros {
             data: unknown
         }
     ): string {
-        // @ts-ignore
-        const excerpt = entry.data.excerpt || null;
+        const excerpt = (entry.data as any).excerpt || null;
         if (excerpt !== null) {
             return excerpt;
         }

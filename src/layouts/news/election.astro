@@ -1,13 +1,13 @@
 ---
 import { type MarkdownLayoutProps } from "astro";
 import { Arrays } from "@helpers";
-import { Terms } from "@collections";
+import { Elections } from "@collections";
 
 import PostLayout from "@layouts/news/post.astro";
 
-type Props = MarkdownLayoutProps<Terms.Term>;
+type Props = MarkdownLayoutProps<Elections.Election>;
 const { frontmatter } = Astro.props as Props;
-const term = Terms.ensureTerm(frontmatter);
+const election = Elections.ensureElection(frontmatter);
 ---
 <style>
     div.header {
@@ -35,11 +35,11 @@ const term = Terms.ensureTerm(frontmatter);
 
 <PostLayout chin={false}>
     <div class="header">
-        <h1 class="govuk-heading-l">{term.headline}</h1>
+        <h1 class="govuk-heading-l">{election.headline}</h1>
     </div>
 
     <div class="senate-parties-wrapper">
-        {term.parties.map((party) => (
+        {election.parties.map((party) => (
             <div class="senate-party-element">
                 {party.name}
                 <div class="senate-party-members" style={`background: ${party.bgcolour}; color: ${party.txtcolour};`}>

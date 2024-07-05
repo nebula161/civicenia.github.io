@@ -1,6 +1,6 @@
 ---
 election: true
-layout: "@layouts/news/term.astro"
+layout: "@layouts/news/election.astro"
 headline: "August Senate (2023)"
 term: 14
 date: "2023-08-02 16:03:00 +01:00"

@@ -1,6 +1,6 @@
 ---
 election: true
-layout: "@layouts/news/term.astro"
+layout: "@layouts/news/election.astro"
 headline: March Senate (2023)
 term: 9
 date: 2023-03-04 16:56:00 +00:00

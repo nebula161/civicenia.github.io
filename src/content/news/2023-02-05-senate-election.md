@@ -1,6 +1,6 @@
 ---
 election: true
-layout: "@layouts/news/term.astro"
+layout: "@layouts/news/election.astro"
 headline: February Senate (2023)
 term: 8
 date: 2023-02-05 01:57:00 +00:00
