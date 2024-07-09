@@ -195,6 +195,11 @@ entries:
     name: Red Rocks Pact
     kind: treaty
     googledoc: https://docs.google.com/document/d/1TtIo7qsznDUc3Uvd_YCLLGbQPo8gzzlfI-yTSlE9COE/preview
+  - hidden: false
+    slug: dbugingrad-act
+    name: Dbugingrad Act
+    kind: statute
+    googledoc: https://docs.google.com/document/d/1O-7zXZydnmjlUyk52-8QxlcYoEYLzzm0Rx8GDKK9Jdg/preview
   - hidden: true
     slug: pnc-pearls-act
     name: PNC Pearls Act

@@ -12,6 +12,8 @@ changes:
     kind: amendment
   - target: statute-of-territory
     kind: amendment
+  - target: dbugingrad-act
+    kind: passage
 icon: /assets/images/law_stock.jpeg
 ---
 Senator Sdorr's proposal was approved by the Senate and by President ChrisChrispie.<!--more-->
