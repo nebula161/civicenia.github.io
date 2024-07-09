@@ -235,3 +235,8 @@ entries:
     name: Political Parties Act
     kind: statute
     googledoc: https://docs.google.com/document/d/1cgq5h8oGIGVkOIhv8XJqOG0KN9WWoNLQvlv2Qf6peQY/preview
+  - hidden: false
+    slug: statehood-of-selsey
+    name: State of Selsey
+    kind: statehood
+    googledoc: https://docs.google.com/document/d/1EhhKE-hQOTvhXdu29f7dRNhon7AL62AVrTGs-teET4Y/preview
