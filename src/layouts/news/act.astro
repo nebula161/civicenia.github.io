@@ -5,7 +5,6 @@ import { Acts, Laws } from "@collections";
 import { getActChangeColours } from "@comptime";
 
 import PostLayout from "@layouts/news/post.astro";
-import Markdown from "@components/markdown.astro";
 
 export type Props = MarkdownLayoutProps<Acts.Act>;
 const { frontmatter } = Astro.props as Props;
@@ -29,7 +28,7 @@ const laws = Arrays.toMap(await Laws.getLaws(), (law) => law.slug);
                 {act.document.value === "" ? <slot><br/></slot> : (<>{function(){
                     switch (act.document.type) {
                         case "markdown":
-                            return <Markdown raw={act.document.value}/>;
+                            return <div set:html={Strings.parseMarkdown(act.document.value)}/>;
                         case "local-file":
                         case "remote-file":
                             return <iframe src={act.document.value} style="width: 100%; min-width: 100%; max-width: 100%; aspect-ratio: 1 / 1.4142;"></iframe>;
