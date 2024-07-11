@@ -15,4 +15,4 @@ changes:
 excerpt: Signed by President ChrisChrispie with the implicit consent of the Senate.
 icon: /assets/images/law_stock.jpeg
 ---
-This treaty was mistakenly signed by President ChrisChrispie following the [Declaration of Friendship]({% post_url 2023-07-22-friendship-with-yoahtl %}) without the consent of the Senate. However, the Senate has not expressed discontent with the treaty nor has moved to overturn it. For all intents and purposes, it has received the consent of the Senate.
+This treaty was mistakenly signed by President ChrisChrispie following the [Declaration of Friendship](/news/2023-07-22-friendship-with-yoahtl) without the consent of the Senate. However, the Senate has not expressed discontent with the treaty nor has moved to overturn it. For all intents and purposes, it has received the consent of the Senate.

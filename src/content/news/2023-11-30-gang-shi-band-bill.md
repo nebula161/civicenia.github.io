@@ -64,4 +64,4 @@ Senator Quanton\_Biscuit's proposal was approved by the Senate and by President 
 - Senator SpeedyJustice: Aye
 - Senator Xcios: Aye
 
-*(This was originally a Motion but was retroactively considered a Bill after the [Gang Shi Band Amendment Bill]({% post_url 2023-12-31-gang-shi-band-amendment-bill %}))*
+*(This was originally a Motion but was retroactively considered a Bill after the [Gang Shi Band Amendment Bill](/news/2023-12-31-gang-shi-band-amendment-bill))*
