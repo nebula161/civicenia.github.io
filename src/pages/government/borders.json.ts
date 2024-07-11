@@ -87,7 +87,7 @@ export async function GET(
                     // Selsey Proper
                     [[-2477,-4891],[-2473,-4912],[-2489,-4955],[-2459,-5017],[-2475,-5045],[-2509,-5096],[-2540,-5150],[-2593,-5193],[-2655,-5146],[-2680,-5131],[-2775,-5073],[-2778,-4859],[-2654,-4792],[-2626,-4811],[-2584,-4809],[-2555,-4853],[-2521,-4855],[-2492,-4877]],
                 ],
-                "notes": "Selsey became a State of Icenia on the 9th August, 2023 via the Mandate of Selsey",
+                "notes": "Selsey became a State of Icenia on the 9th July, 2024 via the Mandate of Selsey",
                 "Mandate of Selsey": "https://docs.google.com/document/d/1EhhKE-hQOTvhXdu29f7dRNhon7AL62AVrTGs-teET4Y/preview",
                 ...defaultDetails
             },
