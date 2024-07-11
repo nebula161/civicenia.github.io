@@ -10,7 +10,7 @@
         "astro": "bunx astro"
     },
     "dependencies": {
-        "@astrojs/check": "^0.3.4",
+        "@astrojs/check": "^0.8.1",
         "@bramus/pagination-sequence": "^1.2.1",
         "@rollup/plugin-yaml": "^4.1.2",
         "@types/bramus__pagination-sequence": "^1.2.2",
@@ -20,7 +20,7 @@
         "dateformat": "^5.0.3",
         "decap-server": "^3.0.4",
         "gray-matter": "^4.0.3",
-        "marked": "^11.2.0",
+        "marked": "^13.0.2",
         "sanitize.css": "^13.0.0",
         "string-strip-html": "^13.4.8"
     }
