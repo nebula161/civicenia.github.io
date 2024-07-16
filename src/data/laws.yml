@@ -169,7 +169,7 @@ entries:
     name: Articles of War
     kind: constitution
     googledoc: https://docs.google.com/document/d/1RGuLnK7WoLMu3O1pGEDLDjNpxORzIaetvWRJ9FqU7DY/preview
-  - hidden: false
+  - hidden: true
     slug: citizenship-suspension-act
     name: Citizenship Suspension Act
     kind: statute
