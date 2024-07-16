@@ -245,3 +245,8 @@ entries:
     name: State of Selsey
     kind: statehood
     googledoc: https://docs.google.com/document/d/1EhhKE-hQOTvhXdu29f7dRNhon7AL62AVrTGs-teET4Y/preview
+  - hidden: false
+    slug: icenian-flag-act
+    name: Icenian Flag Act
+    kind: statute
+    googledoc: https://docs.google.com/document/d/1vvSM9aUcp5YrK8icI1361Ge_0U9lg1OWLhsihsNQnrI/preview

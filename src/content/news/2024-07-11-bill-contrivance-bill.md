@@ -15,7 +15,7 @@ icon: /assets/images/law_stock.jpeg
 Senator Shadno's proposal, submitted on behalf of Orinnari, was approved by the Senate and President ChrisChrispie.<!--more-->
 
 - Senate Complexii: Aye
-- Senate Forged_TK: !!!!WAITING FOR VOTE!!!!
+- Senate Forged_TK: Absent
 - Senate Gjum: Aye
 - Senate Quanton_Biscuit: Aye
 - Senate sadchamp: Aye
