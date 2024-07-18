@@ -44,4 +44,4 @@ Senator Shadno's proposal was approved by the Senate and President ChrisChrispie
 * Senate Shadno: Aye
 * Senate SpeedyJustice: Aye
 
-*(These schedules have been contrived pursuant to Article 4.F of the Hansard Act)*
+*(Schedules 1, 2, and 3 were contrived pursuant to Article 4.F of the Hansard Act)*
