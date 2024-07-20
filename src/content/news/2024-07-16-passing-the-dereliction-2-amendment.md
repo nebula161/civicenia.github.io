@@ -33,4 +33,4 @@ Senator Quanton_Biscuit's proposal was approved by the Senate and President Chri
 - Senator Shadno: Aye
 - Senator SpeedyJustice: Aye
 
-*(Schedules 1 and 2 were contrived pursuant to Article 4.F of the Hansard Act)*
+*(Schedules 1 and 2 were contrived pursuant to Article 3.F of the Hansard Act)*

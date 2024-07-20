@@ -41,4 +41,4 @@ Senator Quanton_Biscuit's proposal, submitted on behalf of President ChrisChrisp
 - Senator Shadno: Aye
 - Senator SpeedyJustice: Absent
 
-*(Schedule 1 was contrived pursuant to Article 4.F of the Hansard Act)*
+*(Schedule 1 was contrived pursuant to Article 3.F of the Hansard Act)*
