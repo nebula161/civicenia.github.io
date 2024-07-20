@@ -25,12 +25,12 @@ icon: /assets/images/law_stock.jpeg
 ---
 Senator Quanton_Biscuit's proposal was approved by the Senate and President ChrisChrispie.<!--more-->
 
-- Senate Complexii: Aye
-- Senate Forged_TK: Aye
-- Senate Gjum: Aye
-- Senate Quanton_Biscuit: Aye
-- Senate sadchamp: Aye
-- Senate Shadno: Aye
-- Senate SpeedyJustice: Aye
+- Senator Complexii: Aye
+- Senator Forged_TK: Aye
+- Senator Gjum: Aye
+- Senator Quanton_Biscuit: Aye
+- Senator sadchamp: Aye
+- Senator Shadno: Aye
+- Senator SpeedyJustice: Aye
 
 *(Schedules 1 and 2 were contrived pursuant to Article 4.F of the Hansard Act)*

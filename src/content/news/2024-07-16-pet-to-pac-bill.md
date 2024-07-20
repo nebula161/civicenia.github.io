@@ -33,12 +33,12 @@ icon: /assets/images/law_stock.jpeg
 ---
 Senator Quanton_Biscuit's proposal, submitted on behalf of President ChrisChrispie, was approved by the Senate and President ChrisChrispie.<!--more-->
 
-- Senate Complexii: Aye
-- Senate Forged_TK: Absent
-- Senate Gjum: Aye
-- Senate Quanton_Biscuit: Aye
-- Senate sadchamp: Aye
-- Senate Shadno: Aye
-- Senate SpeedyJustice: Absent
+- Senator Complexii: Aye
+- Senator Forged_TK: Absent
+- Senator Gjum: Aye
+- Senator Quanton_Biscuit: Aye
+- Senator sadchamp: Aye
+- Senator Shadno: Aye
+- Senator SpeedyJustice: Absent
 
 *(Schedule 1 was contrived pursuant to Article 4.F of the Hansard Act)*

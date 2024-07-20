@@ -65,10 +65,10 @@ icon: /assets/images/law_stock.jpeg
 ---
 Senator sadchamp's proposal, submitted on behalf of Anvil, was approved by the Senate and President ChrisChrispie.<!--more-->
 
-- Senate Complexii: Aye
-- Senate Forged_TK: Absent
-- Senate Gjum: Aye
-- Senate Quanton_Biscuit: Aye
-- Senate sadchamp: Aye
-- Senate Shadno: Aye
-- Senate SpeedyJustice: Aye
+- Senator Complexii: Aye
+- Senator Forged_TK: Absent
+- Senator Gjum: Aye
+- Senator Quanton_Biscuit: Aye
+- Senator sadchamp: Aye
+- Senator Shadno: Aye
+- Senator SpeedyJustice: Aye
