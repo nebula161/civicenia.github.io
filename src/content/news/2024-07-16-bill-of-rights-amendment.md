@@ -22,13 +22,13 @@ document:
     ---
 
 
-    **Schedule 1:** Amend Article III of the Constitution of Icenia to replace *"The Icenian Bill of Rights applies to all Icenians of the Citizen rank or higher."* with *"The Icenian Bill of Rights applies to all Icenians of the Citizen rank or higher unless stated otherwise."*
+    **Schedule 1:** Amend Article III of the Constitution of Icenia to replace <removed>The Icenian Bill of Rights applies to all Icenians of the Citizen rank or higher.</removed> with <added>The Icenian Bill of Rights applies to all Icenians of the Citizen rank or higher unless stated otherwise.</added>
 
 
-    **Schedule 2:** Amend Article III of the Constitution of Icenia to replace *"These rights may be suspended as part of punishment for a crime that a citizen has been convicted of."* with *"These rights may be suspended as part of punishment for a crime they have been duly convicted of."*
+    **Schedule 2:** Amend Article III of the Constitution of Icenia to replace <removed>These rights may be suspended as part of punishment for a crime that a citizen has been convicted of.</removed> with <added>These rights may be suspended as part of punishment for a crime they have been duly convicted of.</added>
 
 
-    **Schedule 3:** Amend Article III (5) of the Constitution of Icenia to replace *"Citizens are guaranteed freedom from slavery, indentured servitude, or involuntary servitude."* with *"Icenians are guaranteed freedom from slavery, indentured servitude, or involuntary servitude."*
+    **Schedule 3:** Amend Article III (5) of the Constitution of Icenia to replace <removed>Citizens are guaranteed freedom from slavery, indentured servitude, or involuntary servitude.</removed> with <added>Icenians are guaranteed freedom from slavery, indentured servitude, or involuntary servitude.</added>
 changes:
   - target: third-constitution
     kind: amendment

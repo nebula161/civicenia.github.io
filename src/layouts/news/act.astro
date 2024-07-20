@@ -28,7 +28,23 @@ const laws = Arrays.toMap(await Laws.getLaws(), (law) => law.slug);
                 {act.document.value === "" ? <slot><br/></slot> : (<>{function(){
                     switch (act.document.type) {
                         case "markdown":
-                            return <div set:html={Strings.parseMarkdown(act.document.value)}/>;
+                            return <>
+                                <style>
+                                    added {
+                                        font-style: italic;
+                                        color: #38761d;
+                                    }
+                                    added:before { content: "\""; }
+                                    added:after { content: "\""; }
+                                    removed {
+                                        font-style: italic;
+                                        color: #FF0000;
+                                    }
+                                    removed:before { content: "\""; }
+                                    removed:after { content: "\""; }
+                                </style>
+                                <div set:html={Strings.parseMarkdown(act.document.value)}/>
+                            </>;
                         case "local-file":
                         case "remote-file":
                             return <iframe src={act.document.value} style="width: 100%; min-width: 100%; max-width: 100%; aspect-ratio: 1 / 1.4142;"></iframe>;
