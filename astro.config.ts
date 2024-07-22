@@ -120,5 +120,8 @@ export default defineConfig({
 
         // Better slugs (4th July 2024)
         "/news/2024-03-19-non-aggression-pact-between-icenia-and-exyria": "/news/2024-03-19-signing-exyria-nap",
+
+        // Whoops, copy paste error
+        "/news/2024-07-18-passing-the-dereliction-2-amendment": "/news/2024-07-18-passing-judiciary-reform-amendment",
     }
 });
