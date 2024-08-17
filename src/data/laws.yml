@@ -112,7 +112,7 @@ entries:
   - hidden: false
     googledoc: https://docs.google.com/document/d/1HQ1kS1Rej8eq1f7pnklXpQrAD4GMGhkGvqzeDKnRMF8/preview
     kind: statute
-    name: Building Regulations and Subsidies Act
+    name: Building Standards and Processes Act
     slug: building-regulations-act
   - hidden: false
     slug: safe-icenia-act
@@ -255,3 +255,8 @@ entries:
     name: Legal Entities Act
     kind: statute
     googledoc: https://docs.google.com/document/d/1S5_wfpavJxd7IaUicJkoyNd_FFsJ8rV_Bhl_ZstpsmQ/preview
+  - hidden: false
+    slug: kallos-nap
+    name: Kallos, NAP
+    kind: treaty
+    googledoc: https://docs.google.com/document/d/1JS-TpZfG1XL5MmvcaIxqelx7JC04D9up-nVO0yb1KTQ/preview
