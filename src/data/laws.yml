@@ -260,3 +260,8 @@ entries:
     name: Kallos, NAP
     kind: treaty
     googledoc: https://docs.google.com/document/d/1JS-TpZfG1XL5MmvcaIxqelx7JC04D9up-nVO0yb1KTQ/preview
+  - hidden: false
+    slug: alenarith-protectorate
+    name: Alenarith Protectorate
+    kind: statehood
+    googledoc: https://docs.google.com/document/d/1X-04b-GyWtAk7PO5aSg_OpsdP5YoA07m-PYhEDM6Yq4/pub
