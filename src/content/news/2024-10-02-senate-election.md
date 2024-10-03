@@ -9,10 +9,10 @@ parties:
     txtcolour: "#3D3D3D"
     members:
       - auqust
-      - GaIIy
       - zolo17
       - Complexii
-    exmembers: []
+    exmembers:
+      - GaIIy
     name: Icenia Integrationists Party
   - bgcolour: "#3AB3DA"
     txtcolour: "#FFFFFF"
@@ -24,6 +24,6 @@ icon: /assets/images/election_stock.png
 ---
 * Complexii 25
 * zolo17 23
-* GaIIy 23
+* GaIIy 23 (Resigned / Banned)
 * auqust 23
 * 7_misun 19
