@@ -18,6 +18,7 @@ parties:
     txtcolour: "#FFFFFF"
     members:
       - 7_misun
+      - dBeatzx
     exmembers: []
     name: C.R.A.P
 icon: /assets/images/election_stock.png
@@ -27,3 +28,4 @@ icon: /assets/images/election_stock.png
 * GaIIy 23 (Resigned / Banned)
 * auqust 23
 * 7_misun 19
+* dBeatzx (Snap election, replaced Gally)
