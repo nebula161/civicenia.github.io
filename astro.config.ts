@@ -123,5 +123,11 @@ export default defineConfig({
 
         // Whoops, copy paste error
         "/news/2024-07-18-passing-the-dereliction-2-amendment": "/news/2024-07-18-passing-judiciary-reform-amendment",
+
+        // After running ./fix-dates.ts (7th Dec 2024)
+        "/news/2024-11-06-senate-election": "/news/2024-11-02-senate-election",
+        "/news/2024-11-06-passing-the-icenian-flag-bill": "/news/2024-07-12-passing-the-icenian-flag-bill",
+        "/news/2024-09-23-senate-election": "/news/2024-09-02-senate-election",
+        "/news/2024-10-02-senate-election": "/news/2024-10-01-senate-election",
     }
 });
