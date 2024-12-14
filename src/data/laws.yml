@@ -265,3 +265,9 @@ entries:
     name: Alenarith Protectorate
     kind: statehood
     googledoc: https://docs.google.com/document/d/1zxa3Rtzu-qmQosiP218nOUseYa3n-wvimUhWXhD8WpI/preview
+  - hidden: false
+    slug: privy-council-powers
+    name: Privy Council Powers
+    fullname: Powers of the Privy Council
+    kind: constitution
+    googledoc: https://docs.google.com/document/d/19ez8zTZwU6KFY0SeT1l92rJTZmuIURRprC1CjK313V8/preview

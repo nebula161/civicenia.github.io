@@ -15,7 +15,8 @@ changes:
     kind: amendment
 icon: /assets/images/law_stock.jpeg
 ---
-Senator Shadno's proposal authored by prettyparfait was passed by the Senate and approved by President ChrisChrispie
+Senator Shadno's proposal, authored by prettyparfait, was passed by the Senate and approved by President ChrisChrispie.<!--more-->
+
 * Senator Shadno: Aye
 * Senator Lagiacrus: Aye
 * Senator 7_misun: Aye
