@@ -7,8 +7,8 @@ entries:
     kind: constitution
   - hidden: false
     slug: statehood-for-bloom
-    name: Viceroyalty of Bloom
-    fullname: Statehood for the Viceroyalty of Bloom
+    name: State of Bloom
+    fullname: Statehood for Bloom
     googledoc: https://docs.google.com/document/d/15VPRXtU5E_jwzrsmuhx4OwhcjdhlXxylRxjOfNRWr3o/preview
     kind: statehood
   - hidden: true
