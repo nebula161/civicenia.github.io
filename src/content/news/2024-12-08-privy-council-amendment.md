@@ -10,6 +10,8 @@ document:
 changes:
   - target: third-constitution
     kind: amendment
+  - target: privy-council-powers
+    kind: passage
 icon: /assets/images/law_stock.jpeg
 ---
 Senator Orinnari's proposal was approved by the Senate and President ChrisChrispie.<!--more-->
