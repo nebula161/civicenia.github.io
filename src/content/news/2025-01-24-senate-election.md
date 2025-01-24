@@ -29,12 +29,11 @@ parties:
     name: Revitalize Icenia Initiative (RII)
 icon: /assets/images/election_stock.png
 ---
-
-The Senate Election was verified with the following results:
-
-* Duck: 27
-* Minemaster: 25
-* Raeders: 24
-* Bacon: 22
-* Zolo: 19
-* Jaime: 19
+The Senate Election returned with the following results:
+- Complexii: 27
+- DuckWithAMonocle: 27
+- minemaster933: 25
+- Raeders: 24
+- Dr_Bacon_Hair: 22
+- zolo17: 19
+- Jaimiemie: 19

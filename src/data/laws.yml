@@ -271,3 +271,14 @@ entries:
     fullname: Powers of the Privy Council
     kind: constitution
     googledoc: https://docs.google.com/document/d/19ez8zTZwU6KFY0SeT1l92rJTZmuIURRprC1CjK313V8/preview
+  - hidden: false
+    slug: benefits-awareness-act
+    name: Benefits Awareness Act
+    googledoc: https://docs.google.com/document/d/1ZFZ2Zj3YIF_PyoXYHF0hzWKSK8RLOSqj1fFSBBSu-z4/preview?tab=t.0#heading=h.1kaqddiwk0s6
+    kind: statute
+  - hidden: false
+    name: Head of Transportation Act
+    fullname: Head of Transportation Establishment Act
+    slug: head-of-transportation-act
+    kind: constitution
+    googledoc: https://docs.google.com/document/d/1LDn000kYQC8Z0SNKwik4vRJnErAaBMo85buWLRjVvxY/preview?tab=t.0#heading=h.9qtb2dcpvj26
