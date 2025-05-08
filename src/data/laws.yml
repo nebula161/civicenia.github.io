@@ -282,3 +282,8 @@ entries:
     slug: head-of-transportation-act
     kind: constitution
     googledoc: https://docs.google.com/document/d/1LDn000kYQC8Z0SNKwik4vRJnErAaBMo85buWLRjVvxY/preview?tab=t.0#heading=h.9qtb2dcpvj26
+  - hidden: false
+    slug: wesbury-treaty
+    name: Treaty of Wesbury
+    kind: treaty
+    googledoc: https://docs.google.com/document/d/1CxaO4cScC37-7r3Y68vZKd4IB86fqs2-387I8XvONGU/preview
